@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      id="meta-description"
+      name="description"
+      content="Smerthnix — разработка сайтов, ботов, автоматизации и технических решений под конкретные задачи."
+    />
+    <title>Smerthnix — разработка сайтов, ботов и автоматизации</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&family=Unbounded:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=9" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="section-inner header-inner">
+        <a class="brand" href="#top" aria-label="Back to top">
+          <span class="brand-name" id="brand-name">Smerthnix</span>
+          <span class="brand-role" id="brand-role"></span>
+        </a>
+
+        <div class="header-actions">
+          <nav class="site-nav" aria-label="Primary navigation">
+            <a href="#solutions" id="nav-solutions"></a>
+            <a href="#services" id="nav-services"></a>
+            <a href="#process" id="nav-process"></a>
+            <a href="#contact" id="nav-contact"></a>
+          </nav>
+
+          <div class="lang-control" id="lang-control">
+            <button
+              class="lang-trigger"
+              id="lang-trigger"
+              type="button"
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-controls="lang-menu"
+            >
+              <span class="lang-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path
+                    d="M19.14 12.94c.04-.31.06-.63.06-.94s-.02-.63-.06-.94l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.61-.22l-2.39.96a7.6 7.6 0 0 0-1.63-.94l-.36-2.54a.5.5 0 0 0-.5-.42h-3.84a.5.5 0 0 0-.5.42l-.36 2.54c-.58.23-1.13.54-1.63.94l-2.39-.96a.5.5 0 0 0-.61.22L2.7 8.84a.5.5 0 0 0 .12.64l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94L2.82 14.52a.5.5 0 0 0-.12.64l1.92 3.32a.5.5 0 0 0 .61.22l2.39-.96c.5.4 1.05.71 1.63.94l.36 2.54a.5.5 0 0 0 .5.42h3.84a.5.5 0 0 0 .5-.42l.36-2.54c.58-.23 1.13-.54 1.63-.94l2.39.96a.5.5 0 0 0 .61-.22l1.92-3.32a.5.5 0 0 0-.12-.64l-2.03-1.58ZM12 15.3A3.3 3.3 0 1 1 12 8.7a3.3 3.3 0 0 1 0 6.6Z"
+                  />
+                </svg>
+              </span>
+              <span class="lang-current" id="lang-current">RU</span>
+            </button>
+
+            <div class="lang-menu" id="lang-menu" hidden>
+              <button class="lang-option" type="button" data-lang="ru">Русский</button>
+              <button class="lang-option" type="button" data-lang="en">English</button>
+              <button class="lang-option" type="button" data-lang="pl">Polski</button>
+              <button class="lang-option" type="button" data-lang="uk">Українська</button>
+              <button class="lang-option" type="button" data-lang="de">Deutsch</button>
+              <button class="lang-option" type="button" data-lang="fr">Français</button>
+            </div>
+          </div>
+
+          <a class="button button-ghost header-cta" href="#contact" id="header-cta"></a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <video
+            class="hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=90"
+          >
+            <source src="assets/hero-background.mp4" type="video/mp4" />
+          </video>
+          <span class="hero-shade"></span>
+          <span class="hero-grid"></span>
+          <span class="hero-orbit hero-orbit-a"></span>
+          <span class="hero-orbit hero-orbit-b"></span>
+        </div>
+
+        <div class="section-inner hero-layout">
+          <div class="hero-copy reveal">
+            <p class="eyebrow" id="hero-eyebrow"></p>
+            <h1 id="hero-title"></h1>
+            <p class="hero-lead" id="hero-lead"></p>
+
+            <div class="hero-actions">
+              <a
+                class="button button-primary"
+                id="hero-primary"
+                href="https://t.me/Smerthnix"
+                target="_blank"
+                rel="noreferrer"
+              ></a>
+              <a class="button button-secondary" id="hero-secondary" href="mailto:superkolze08@gmail.com"></a>
+              <a class="text-link" href="#solutions" id="hero-tertiary"></a>
+            </div>
+
+            <p class="hero-microcopy" id="hero-microcopy"></p>
+
+            <div class="hero-points" id="hero-points"></div>
+
+            <div class="hero-contact-bar">
+              <span class="hero-contact-label" id="hero-contact-label"></span>
+              <a class="hero-contact-link" href="https://t.me/Smerthnix" target="_blank" rel="noreferrer">
+                <span class="hero-contact-type" id="hero-telegram-label"></span>
+                <span class="hero-contact-value">@Smerthnix</span>
+              </a>
+              <span class="hero-contact-divider"></span>
+              <a class="hero-contact-link" href="mailto:superkolze08@gmail.com">
+                <span class="hero-contact-type" id="hero-email-label"></span>
+                <span class="hero-contact-value" id="hero-email-text">superkolze08@gmail.com</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" id="hero-visual">
+            <div class="hero-visual-frame">
+              <video
+                class="hero-visual-media"
+                id="hero-visual-media"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                aria-label="Preview of Smerthnix project visuals"
+              >
+                <source src="assets/hero-background.mp4" type="video/mp4" />
+              </video>
+
+              <div class="hero-language-pill">
+                <span id="hero-language-label"></span>
+                <span class="hero-language-dot"></span>
+                <strong id="hero-language-value"></strong>
+              </div>
+
+              <div class="hero-proof-chip" id="hero-proof-chip"></div>
+
+              <div class="hero-floating-panel">
+                <p class="floating-kicker" id="hero-card-kicker"></p>
+                <h2 id="hero-card-title"></h2>
+                <div class="floating-list" id="hero-card-list"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="brief-strip">
+        <div class="section-inner brief-strip-inner">
+          <div class="brief-copy">
+            <p class="eyebrow eyebrow-dark" id="brief-eyebrow"></p>
+            <h2 id="brief-title"></h2>
+          </div>
+          <p class="brief-lead" id="brief-lead"></p>
+          <a class="button button-primary" href="#contact" id="brief-button"></a>
+        </div>
+      </section>
+
+      <section class="solutions" id="solutions">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow eyebrow-dark" id="solutions-eyebrow"></p>
+            <h2 id="solutions-title"></h2>
+            <p id="solutions-lead"></p>
+          </div>
+
+          <div class="solutions-grid" id="solutions-grid"></div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="section-inner">
+          <div class="section-heading section-heading-split reveal">
+            <div>
+              <p class="eyebrow eyebrow-dark" id="services-eyebrow"></p>
+              <h2 id="services-title"></h2>
+            </div>
+            <p id="services-lead"></p>
+          </div>
+
+          <div class="service-grid" id="service-grid"></div>
+        </div>
+      </section>
+
+      <section class="proof">
+        <div class="section-inner proof-grid">
+          <div class="proof-copy reveal">
+            <p class="eyebrow" id="proof-eyebrow"></p>
+            <h2 id="proof-title"></h2>
+            <p id="proof-lead"></p>
+            <div class="proof-tags" id="proof-tags"></div>
+          </div>
+
+          <div class="proof-media reveal">
+            <img
+              id="proof-image"
+              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=90"
+              alt="Project discussion and planning at a desk"
+            />
+
+            <div class="proof-media-panel">
+              <p class="proof-media-kicker" id="proof-card-kicker"></p>
+              <div class="proof-media-list" id="proof-media-list"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="process" id="process">
+        <div class="section-inner process-layout">
+          <div class="process-copy reveal">
+            <p class="eyebrow eyebrow-dark" id="process-eyebrow"></p>
+            <h2 id="process-title"></h2>
+            <p class="process-lead" id="process-lead"></p>
+          </div>
+
+          <div class="steps-grid" id="steps-grid"></div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="section-inner contact-layout">
+          <div class="contact-copy reveal">
+            <p class="eyebrow eyebrow-dark" id="contact-eyebrow"></p>
+            <h2 id="contact-title"></h2>
+            <p id="contact-lead"></p>
+            <div class="contact-list" id="contact-list"></div>
+          </div>
+
+          <div class="contact-panel reveal">
+            <img
+              id="contact-image"
+              class="contact-image"
+              src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1600&q=90"
+              alt="Professional communication and project planning"
+            />
+
+            <div class="contact-panel-body">
+              <p class="contact-panel-kicker" id="contact-panel-kicker"></p>
+
+              <a
+                class="contact-method"
+                id="contact-telegram"
+                href="https://t.me/Smerthnix"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span id="contact-telegram-label"></span>
+                <strong>@Smerthnix</strong>
+              </a>
+
+              <a class="contact-method" id="contact-email" href="mailto:superkolze08@gmail.com">
+                <span id="contact-email-label"></span>
+                <strong id="contact-email-text">superkolze08@gmail.com</strong>
+              </a>
+
+              <p class="contact-note" id="contact-note"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-inner footer-inner">
+        <p class="footer-brandline">
+          <span id="footer-name">Smerthnix</span>
+          <span class="footer-divider">/</span>
+          <span id="footer-role"></span>
+        </p>
+        <p class="footer-copy" id="footer-copy"></p>
+      </div>
+    </footer>
+
+    <div class="contact-dock">
+      <a
+        class="contact-dock-link"
+        id="dock-telegram"
+        href="https://t.me/Smerthnix"
+        target="_blank"
+        rel="noreferrer"
+      ></a>
+      <a class="contact-dock-link" id="dock-email" href="mailto:superkolze08@gmail.com"></a>
+    </div>
+
+    <div class="cursor-shell" id="cursor-shell" aria-hidden="true">
+      <span class="cursor-glow"></span>
+      <span class="cursor-ring"></span>
+      <span class="cursor-dot"></span>
+    </div>
+
+    <script src="script.js?v=9"></script>
+  </body>
+</html>
