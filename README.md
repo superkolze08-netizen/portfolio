@@ -1,3 +1,8 @@
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=6366F1&center=true&vCenter=true&width=500&lines=Hi+I'm+Smerthnix;Junior+Web+Developer;Open+to+Remote+Work;HTML+CSS+JavaScript" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:06b6d4&height=200&section=header&text=Smerthnix&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+</p>
+<h1 align="center">Smerthnix 🚀</h1>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=blur&color=0:0f172a,100:6366f1&height=180&section=header&text=Frontend+Developer&fontSize=35&fontColor=ffffff" />
 </p>
