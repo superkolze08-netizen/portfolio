@@ -1449,6 +1449,24 @@ ul {
   font-weight: 600;
 }
 
+.price-value-custom {
+  flex-wrap: wrap;
+}
+
+.price-value-custom small {
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.price-value-custom strong {
+  font-size: clamp(54px, 5.2vw, 82px);
+}
+
+.price-value-custom span {
+  max-width: 86px;
+  line-height: 1.25;
+}
+
 .price-card > p {
   position: relative;
   margin-bottom: 27px;
@@ -2339,6 +2357,10 @@ ul {
 
   .price-value strong {
     font-size: 65px;
+  }
+
+  .price-value-custom strong {
+    font-size: 58px;
   }
 
   .price-card > ul {

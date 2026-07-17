@@ -30,9 +30,9 @@ Strona zawiera między innymi:
 - integracje z Booksy, formularzami i płatnościami;
 - galerie, opinie, cenniki, vouchery, blog i FAQ;
 - kilka wersji językowych;
-- boty i proste automatyzacje.
+- systemy CRM, boty i proste automatyzacje.
 
-Cena prostej strony internetowej zaczyna się od **2 000 zł**. Dokładna wycena zależy od zakresu projektu.
+Cena jest ustalana indywidualnie po krótkiej rozmowie i zależy od zakresu projektu.
 
 ## Technologie
 
