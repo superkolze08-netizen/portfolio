@@ -6,26 +6,27 @@
     <meta
       id="meta-description"
       name="description"
-      content="Tworzę nowoczesne strony internetowe dla firm usługowych. Realizacja od 2000 zł, wersja mobilna, Booksy, formularze, SEO i dodatkowe funkcje."
+      content="Projektuję i tworzę strony internetowe dla firm usługowych. Strony od 2 000 zł, wersja mobilna, Booksy, SEO i potrzebne integracje."
     />
-    <meta name="theme-color" content="#0b0d10" />
+    <meta name="theme-color" content="#0b0b0b" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Smerthnix - strony internetowe dla firm" />
+    <meta property="og:title" content="Smerthnix — strony internetowe dla firm" />
     <meta
       property="og:description"
-      content="Strony internetowe od 2000 zł. Zobacz prawdziwą realizację Fito Relax i sprawdź, co mogę stworzyć dla Twojej firmy."
+      content="Strony internetowe od 2 000 zł. Zobacz realizację Fito Relax i napisz, czego potrzebuje Twoja firma."
     />
     <meta property="og:url" content="https://superkolze08-netizen.github.io/portfolio/" />
     <meta property="og:image" content="https://fitorelax.pl/assets/massage-ritual-premium.webp" />
-    <title>Smerthnix - strony internetowe dla firm od 2000 zł</title>
+    <title>Smerthnix — strony internetowe od 2 000 zł</title>
 
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=10" />
+    <link rel="stylesheet" href="styles.css?v=11" />
 
     <script type="application/ld+json">
       {
@@ -34,7 +35,7 @@
         "name": "Smerthnix",
         "url": "https://superkolze08-netizen.github.io/portfolio/",
         "email": "superkolze08@gmail.com",
-        "description": "Tworzenie stron internetowych, landing pages, integracji i automatyzacji dla firm usługowych.",
+        "description": "Projektowanie i tworzenie stron internetowych dla firm usługowych.",
         "priceRange": "od 2000 PLN",
         "areaServed": "Poland"
       }
@@ -43,368 +44,397 @@
 
   <body>
     <a class="skip-link" href="#main" data-i18n="skip">Przejdź do treści</a>
+    <div class="pointer-light" aria-hidden="true"></div>
 
     <header class="site-header">
-      <div class="shell header-inner">
-        <a class="brand" href="#top" aria-label="Smerthnix - strona główna">
-          <span class="brand-mark">S</span>
-          <span>
-            <strong>Smerthnix</strong>
-            <small data-i18n="brandRole">strony internetowe</small>
-          </span>
+      <div class="shell header-row">
+        <a class="brand" href="#top" aria-label="Smerthnix — strona główna">
+          <span class="brand-word">SMERTHNIX<span>.</span></span>
+          <small>WEB / PL</small>
         </a>
 
-        <nav class="desktop-nav" aria-label="Główna nawigacja">
-          <a href="#portfolio" data-i18n="navPortfolio">Realizacja</a>
-          <a href="#offer" data-i18n="navOffer">Oferta</a>
+        <nav class="main-nav" aria-label="Główna nawigacja">
+          <a href="#work" data-i18n="navWork">Realizacja</a>
+          <a href="#services" data-i18n="navServices">Usługi</a>
           <a href="#price" data-i18n="navPrice">Cena</a>
-          <a href="#process" data-i18n="navProcess">Jak pracuję</a>
+          <a href="#process" data-i18n="navProcess">Proces</a>
         </nav>
 
-        <div class="header-actions">
+        <div class="header-tools">
           <div class="language-switch" role="group" aria-label="Wybór języka">
             <button type="button" data-lang="pl" aria-pressed="true">PL</button>
             <button type="button" data-lang="ru" aria-pressed="false">RU</button>
             <button type="button" data-lang="uk" aria-pressed="false">UA</button>
             <button type="button" data-lang="en" aria-pressed="false">EN</button>
           </div>
-          <a class="button button-small button-light" href="#contact" data-i18n="navContact">Napisz</a>
+          <a class="header-contact" href="#contact">
+            <span data-i18n="navContact">Porozmawiajmy</span>
+            <i aria-hidden="true">↘</i>
+          </a>
         </div>
       </div>
     </header>
 
     <main id="main">
       <section class="hero" id="top">
-        <div class="hero-glow hero-glow-one"></div>
-        <div class="hero-glow hero-glow-two"></div>
-
-        <div class="shell hero-grid">
+        <div class="hero-grid-bg" aria-hidden="true"></div>
+        <div class="shell hero-layout">
           <div class="hero-copy reveal">
-            <div class="eyebrow">
-              <span class="status-dot"></span>
-              <span data-i18n="heroEyebrow">Przyjmuję nowe projekty</span>
+            <div class="availability">
+              <i></i>
+              <span data-i18n="availability">Dostępny na nowe projekty</span>
+              <em>2026</em>
             </div>
 
-            <h1 data-i18n="heroTitle">
-              Tworzę strony, które jasno pokazują firmę i prowadzą klienta do kontaktu.
+            <h1>
+              <span data-i18n="heroLineOne">Strona, która zmienia</span>
+              <span class="hero-accent" data-i18n="heroLineTwo">firmę w markę.</span>
             </h1>
 
             <p class="hero-lead" data-i18n="heroLead">
-              Dla salonów beauty, lokalnych usług i małych firm. Pomagam uporządkować ofertę,
-              zbudować zaufanie i połączyć stronę z Booksy, formularzem lub innym systemem.
+              Projektuję i tworzę strony dla salonów beauty, lokalnych usług i małych firm. Dobry wygląd, prosty przekaz i jasna droga do kontaktu.
             </p>
-
-            <div class="hero-price">
-              <span data-i18n="heroPriceLabel">Strona internetowa</span>
-              <strong data-i18n="heroPrice">od 2 000 zł</strong>
-              <small data-i18n="heroPriceNote">dokładna wycena po krótkiej rozmowie</small>
-            </div>
 
             <div class="hero-actions">
-              <a class="button button-primary" href="#portfolio" data-i18n="heroPrimary">Zobacz realizację</a>
-              <a
-                class="button button-dark"
-                href="https://t.me/webdelovper"
-                target="_blank"
-                rel="noreferrer"
-                data-i18n="heroSecondary"
-              >Napisz w Telegramie</a>
+              <a class="button button-accent" href="#work">
+                <span data-i18n="heroWork">Zobacz moją pracę</span>
+                <i aria-hidden="true">↓</i>
+              </a>
+              <a class="button button-ghost" href="https://t.me/webdelovper" target="_blank" rel="noreferrer">
+                <span data-i18n="heroWrite">Napisz w Telegramie</span>
+                <i aria-hidden="true">↗</i>
+              </a>
             </div>
 
-            <p class="hero-note" data-i18n="heroNote">
-              Bez długiego formularza. Napisz, czym zajmuje się firma i czego potrzebujesz.
-            </p>
-          </div>
-
-          <div class="hero-case reveal">
-            <div class="browser-card">
-              <div class="browser-bar">
-                <span></span><span></span><span></span>
-                <div class="browser-address">fitorelax.pl</div>
+            <div class="hero-facts">
+              <div>
+                <span data-i18n="heroFactOneLabel">Cena strony</span>
+                <strong data-i18n="heroFactOneValue">od 2 000 zł</strong>
               </div>
-              <img
-                src="https://fitorelax.pl/assets/massage-ritual-premium.webp"
-                alt="Realizacja strony internetowej Fito Relax - studio masażu i SPA w Szczecinie"
-              />
-              <div class="browser-overlay">
-                <span data-i18n="caseBadge">Prawdziwa realizacja online</span>
-                <h2>Fito Relax</h2>
-                <p data-i18n="caseShort">Studio masażu i SPA w Szczecinie</p>
-                <a href="https://fitorelax.pl/" target="_blank" rel="noreferrer" data-i18n="caseOpen">
-                  Otwórz stronę <span aria-hidden="true">↗</span>
-                </a>
+              <div>
+                <span data-i18n="heroFactTwoLabel">Kontakt</span>
+                <strong data-i18n="heroFactTwoValue">bez pośredników</strong>
+              </div>
+              <div>
+                <span data-i18n="heroFactThreeLabel">Języki</span>
+                <strong>PL / RU / UA / EN</strong>
               </div>
             </div>
-
-            <div class="floating-proof floating-proof-top">
-              <strong>Booksy</strong>
-              <span data-i18n="proofBooking">rezerwacja i vouchery</span>
-            </div>
-            <div class="floating-proof floating-proof-bottom">
-              <strong data-i18n="proofMobileTitle">Mobile</strong>
-              <span data-i18n="proofMobile">czytelnie na telefonie</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="trust-strip" aria-label="Najważniejsze informacje">
-        <div class="shell trust-grid">
-          <div><strong>2 000 zł</strong><span data-i18n="trustPrice">minimalny budżet strony</span></div>
-          <div><strong>1</strong><span data-i18n="trustProject">realny projekt online</span></div>
-          <div><strong>4</strong><span data-i18n="trustLanguages">języki komunikacji</span></div>
-          <div><strong data-i18n="trustDirectTitle">Bez pośredników</strong><span data-i18n="trustDirect">kontakt bezpośrednio ze mną</span></div>
-        </div>
-      </section>
-
-      <section class="section portfolio" id="portfolio">
-        <div class="shell">
-          <div class="section-heading reveal">
-            <span class="section-number">01</span>
-            <div>
-              <p class="section-kicker" data-i18n="portfolioKicker">Portfolio</p>
-              <h2 data-i18n="portfolioTitle">Nie pokazuję fikcyjnych makiet. Zacznijmy od strony, która naprawdę działa.</h2>
-            </div>
           </div>
 
-          <article class="case-study reveal">
-            <a class="case-image" href="https://fitorelax.pl/" target="_blank" rel="noreferrer">
+          <div class="hero-visual reveal" aria-label="Podgląd realizacji Fito Relax">
+            <div class="visual-orbit visual-orbit-one"></div>
+            <div class="visual-orbit visual-orbit-two"></div>
+
+            <div class="desktop-mockup" data-parallax="desktop">
+              <div class="mockup-bar">
+                <span class="mockup-dots"><i></i><i></i><i></i></span>
+                <span class="mockup-url">fitorelax.pl</span>
+                <span class="mockup-lock">●</span>
+              </div>
+              <div class="mockup-image">
+                <img
+                  src="https://fitorelax.pl/assets/massage-ritual-premium.webp"
+                  alt="Fito Relax — strona studia masażu i SPA"
+                />
+                <div class="mockup-copy">
+                  <span>STUDIO MASAŻU &amp; SPA</span>
+                  <strong>Fito Relax</strong>
+                  <small>Szczecin</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="phone-mockup" data-parallax="phone">
+              <div class="phone-top"><span></span></div>
               <img
                 src="https://fitorelax.pl/assets/massage-ritual-premium.webp"
-                alt="Fito Relax - realizacja strony dla branży beauty"
+                alt="Mobilna wersja strony Fito Relax"
               />
-              <span data-i18n="caseImageLabel">Zobacz stronę na żywo ↗</span>
+              <div class="phone-copy">
+                <span>FITO RELAX</span>
+                <strong data-i18n="phoneBook">Zarezerwuj wizytę</strong>
+              </div>
+              <div class="phone-home"></div>
+            </div>
+
+            <a class="live-badge" href="https://fitorelax.pl/" target="_blank" rel="noreferrer">
+              <span><i></i> LIVE</span>
+              <strong data-i18n="liveProject">Prawdziwy projekt</strong>
+              <em aria-hidden="true">↗</em>
             </a>
 
-            <div class="case-content">
-              <div class="case-topline">
-                <span class="case-type" data-i18n="caseType">Strona firmowa / beauty</span>
-                <span class="case-live"><i></i><span data-i18n="caseLive">online</span></span>
-              </div>
-              <h3>Fito Relax - Studio Masażu &amp; SPA</h3>
-              <p data-i18n="caseDescription">
-                Strona porządkuje dużą ofertę salonu, pokazuje klimat miejsca i prowadzi klienta
-                do rezerwacji w Booksy, zakupu vouchera albo kontaktu.
-              </p>
+            <div class="price-sticker">
+              <span data-i18n="stickerFrom">STRONY OD</span>
+              <strong>2K</strong>
+              <small>PLN</small>
+            </div>
+          </div>
+        </div>
 
-              <div class="case-details">
-                <div>
-                  <span data-i18n="caseGoalLabel">Na stronie</span>
-                  <strong data-i18n="caseGoal">usługi, pakiety SPA, vouchery, opinie i FAQ</strong>
-                </div>
-                <div>
-                  <span data-i18n="caseIntegrationLabel">Integracje</span>
-                  <strong data-i18n="caseIntegration">Booksy, Google Maps, Instagram i YouTube</strong>
-                </div>
-                <div>
-                  <span data-i18n="caseResultLabel">Ważne</span>
-                  <strong data-i18n="caseResult">czytelna wersja mobilna i prosta droga do rezerwacji</strong>
-                </div>
-              </div>
+        <div class="hero-scroll" aria-hidden="true">
+          <span>SCROLL</span>
+          <i></i>
+        </div>
+      </section>
 
-              <div class="tag-list" aria-label="Funkcje projektu">
-                <span>Booksy</span>
-                <span data-i18n="tagVouchers">Vouchery</span>
-                <span>FAQ</span>
-                <span data-i18n="tagReviews">Opinie</span>
-                <span>SEO</span>
-                <span>Mobile</span>
-              </div>
+      <div class="ticker" aria-label="Zakres usług">
+        <div class="ticker-track">
+          <span>WEB DESIGN</span><i>✦</i>
+          <span>DEVELOPMENT</span><i>✦</i>
+          <span>MOBILE FIRST</span><i>✦</i>
+          <span>BOOKSY</span><i>✦</i>
+          <span>SEO</span><i>✦</i>
+          <span>AUTOMATION</span><i>✦</i>
+          <span aria-hidden="true">WEB DESIGN</span><i aria-hidden="true">✦</i>
+          <span aria-hidden="true">DEVELOPMENT</span><i aria-hidden="true">✦</i>
+          <span aria-hidden="true">MOBILE FIRST</span><i aria-hidden="true">✦</i>
+          <span aria-hidden="true">BOOKSY</span><i aria-hidden="true">✦</i>
+          <span aria-hidden="true">SEO</span><i aria-hidden="true">✦</i>
+          <span aria-hidden="true">AUTOMATION</span><i aria-hidden="true">✦</i>
+        </div>
+      </div>
 
-              <a class="inline-link" href="https://fitorelax.pl/" target="_blank" rel="noreferrer" data-i18n="caseButton">
-                Zobacz Fito Relax <span aria-hidden="true">↗</span>
+      <section class="work section" id="work">
+        <div class="shell">
+          <header class="section-head reveal">
+            <div class="section-label"><span>01</span><i></i><strong data-i18n="workLabel">WYBRANA REALIZACJA</strong></div>
+            <h2 data-i18n="workTitle">Nie makieta. Strona, która naprawdę działa.</h2>
+          </header>
+
+          <article class="featured-project reveal">
+            <div class="project-topline">
+              <div>
+                <span data-i18n="projectIndustry">BEAUTY / WELLNESS</span>
+                <h3>Fito Relax</h3>
+              </div>
+              <a href="https://fitorelax.pl/" target="_blank" rel="noreferrer">
+                <span data-i18n="projectOpen">Otwórz stronę</span>
+                <i aria-hidden="true">↗</i>
               </a>
+            </div>
+
+            <a class="project-stage" href="https://fitorelax.pl/" target="_blank" rel="noreferrer">
+              <div class="project-browser">
+                <div class="project-browser-bar">
+                  <span><i></i><i></i><i></i></span>
+                  <em>https://fitorelax.pl</em>
+                  <b>↗</b>
+                </div>
+                <div class="project-photo">
+                  <img
+                    src="https://fitorelax.pl/assets/massage-ritual-premium.webp"
+                    alt="Fito Relax — realizacja strony internetowej"
+                  />
+                  <div class="project-photo-copy">
+                    <small data-i18n="projectPhotoSmall">ODPOCZNIJ. ZASŁUGUJESZ.</small>
+                    <strong>Studio<br />Masażu &amp; SPA</strong>
+                    <span data-i18n="projectPhotoButton">ZOBACZ OFERTĘ</span>
+                  </div>
+                </div>
+              </div>
+              <span class="open-project" data-i18n="projectHover">ZOBACZ LIVE ↗</span>
+            </a>
+
+            <div class="project-details">
+              <div>
+                <span data-i18n="projectTaskLabel">ZADANIE</span>
+                <p data-i18n="projectTask">Pokazać szeroką ofertę salonu bez chaosu i ułatwić klientowi rezerwację.</p>
+              </div>
+              <div>
+                <span data-i18n="projectSolutionLabel">ROZWIĄZANIE</span>
+                <p data-i18n="projectSolution">Czytelna oferta, mocne zdjęcia, Booksy, vouchery, opinie, FAQ i kontakt.</p>
+              </div>
+              <div>
+                <span data-i18n="projectResultLabel">EFEKT</span>
+                <p data-i18n="projectResult">Pełna strona na telefon i komputer z prostą drogą do umówienia wizyty.</p>
+              </div>
+            </div>
+
+            <div class="project-tags">
+              <span>UX/UI</span><span>HTML / CSS / JS</span><span>BOOKSY</span><span>SEO</span><span>MOBILE</span>
             </div>
           </article>
         </div>
       </section>
 
-      <section class="section offer" id="offer">
+      <section class="services section" id="services">
         <div class="shell">
-          <div class="section-heading reveal">
-            <span class="section-number">02</span>
+          <header class="section-head section-head-light reveal">
+            <div class="section-label"><span>02</span><i></i><strong data-i18n="servicesLabel">CO MOGĘ ZROBIĆ</strong></div>
+            <h2 data-i18n="servicesTitle">Nie sprzedaję szablonu. Buduję stronę pod konkretną firmę.</h2>
+            <p data-i18n="servicesLead">Mówisz, czego potrzebujesz. Ja dobieram wygląd, układ i funkcje.</p>
+          </header>
+
+          <div class="service-list">
+            <article class="service-row reveal">
+              <span class="service-number">01</span>
+              <div class="service-name">
+                <h3 data-i18n="serviceBusinessTitle">Strona firmowa</h3>
+                <p data-i18n="serviceBusinessText">Pełna prezentacja firmy, która buduje zaufanie i prowadzi do kontaktu.</p>
+              </div>
+              <ul>
+                <li data-i18n="serviceBusinessOne">oferta i cennik</li>
+                <li data-i18n="serviceBusinessTwo">galeria i opinie</li>
+                <li data-i18n="serviceBusinessThree">kontakt, mapa i SEO</li>
+              </ul>
+              <span class="service-arrow">↗</span>
+            </article>
+
+            <article class="service-row reveal">
+              <span class="service-number">02</span>
+              <div class="service-name">
+                <h3 data-i18n="serviceLandingTitle">Landing page</h3>
+                <p data-i18n="serviceLandingText">Jedna mocna strona pod reklamę, usługę, produkt albo wydarzenie.</p>
+              </div>
+              <ul>
+                <li data-i18n="serviceLandingOne">jasna oferta</li>
+                <li data-i18n="serviceLandingTwo">formularz i przyciski</li>
+                <li data-i18n="serviceLandingThree">sekcje sprzedażowe</li>
+              </ul>
+              <span class="service-arrow">↗</span>
+            </article>
+
+            <article class="service-row reveal">
+              <span class="service-number">03</span>
+              <div class="service-name">
+                <h3 data-i18n="serviceUpgradeTitle">Nowa wersja starej strony</h3>
+                <p data-i18n="serviceUpgradeText">Lepszy wygląd, prostszy tekst i poprawne działanie na telefonie.</p>
+              </div>
+              <ul>
+                <li data-i18n="serviceUpgradeOne">nowy projekt</li>
+                <li data-i18n="serviceUpgradeTwo">szybkość i mobile</li>
+                <li data-i18n="serviceUpgradeThree">nowe funkcje</li>
+              </ul>
+              <span class="service-arrow">↗</span>
+            </article>
+          </div>
+
+          <div class="capabilities reveal">
             <div>
-              <p class="section-kicker" data-i18n="offerKicker">Oferta</p>
-              <h2 data-i18n="offerTitle">Mogę zrobić prostą stronę albo rozbudować ją o potrzebne funkcje.</h2>
-              <p data-i18n="offerLead">
-                Nie musisz znać technicznych nazw. Wystarczy opisać, co klient ma zobaczyć i co powinien zrobić na stronie.
-              </p>
+              <span data-i18n="capabilitiesLabel">DODATKOWE MOŻLIWOŚCI</span>
+              <p data-i18n="capabilitiesLead">Dodajemy tylko to, czego naprawdę potrzebuje firma.</p>
             </div>
-          </div>
-
-          <div class="offer-grid">
-            <article class="offer-card reveal">
-              <span class="offer-icon">01</span>
-              <h3 data-i18n="offerWebsiteTitle">Strona dla firmy</h3>
-              <p data-i18n="offerWebsiteText">Oferta, usługi, zdjęcia, opinie, kontakt i wersja na telefon.</p>
-              <ul>
-                <li data-i18n="offerWebsiteOne">salon beauty, gabinet, lokalna usługa</li>
-                <li data-i18n="offerWebsiteTwo">strona wizytówka lub kilka podstron</li>
-                <li data-i18n="offerWebsiteThree">publikacja na domenie i podstawowe SEO</li>
-              </ul>
-            </article>
-
-            <article class="offer-card reveal">
-              <span class="offer-icon">02</span>
-              <h3 data-i18n="offerLandingTitle">Landing page pod sprzedaż</h3>
-              <p data-i18n="offerLandingText">Jedna konkretna usługa, kurs, produkt, wydarzenie lub reklama.</p>
-              <ul>
-                <li data-i18n="offerLandingOne">jasna oferta i mocny pierwszy ekran</li>
-                <li data-i18n="offerLandingTwo">przyciski, formularz i kontakt</li>
-                <li data-i18n="offerLandingThree">sekcje odpowiedzi na pytania i zaufanie</li>
-              </ul>
-            </article>
-
-            <article class="offer-card reveal">
-              <span class="offer-icon">03</span>
-              <h3 data-i18n="offerImproveTitle">Poprawa gotowej strony</h3>
-              <p data-i18n="offerImproveText">Jeśli strona już jest, ale wygląda słabo, działa wolno lub nie prowadzi do kontaktu.</p>
-              <ul>
-                <li data-i18n="offerImproveOne">nowy wygląd i lepsza struktura</li>
-                <li data-i18n="offerImproveTwo">poprawa wersji mobilnej</li>
-                <li data-i18n="offerImproveThree">dodanie brakujących funkcji</li>
-              </ul>
-            </article>
-          </div>
-
-          <div class="features-panel reveal">
-            <div class="features-intro">
-              <p class="section-kicker" data-i18n="featuresKicker">Możliwości</p>
-              <h3 data-i18n="featuresTitle">Co można dodać do strony?</h3>
-              <p data-i18n="featuresLead">Wybieramy tylko to, co ma sens dla Twojej firmy i budżetu.</p>
-            </div>
-
-            <div class="features-list">
-              <span data-i18n="featureBooking">Booksy i rezerwacje</span>
-              <span data-i18n="featurePrices">cennik i usługi</span>
-              <span data-i18n="featureGallery">galeria realizacji</span>
-              <span data-i18n="featureReviews">opinie klientów</span>
-              <span data-i18n="featureVouchers">vouchery i karty podarunkowe</span>
-              <span data-i18n="featurePayments">płatności online</span>
-              <span data-i18n="featureLanguages">kilka języków</span>
-              <span data-i18n="featureBlog">blog i poradniki</span>
-              <span data-i18n="featureFaq">FAQ</span>
-              <span data-i18n="featureMap">mapa i godziny otwarcia</span>
-              <span data-i18n="featureForms">formularze i zapytania</span>
-              <span data-i18n="featureAnalytics">analityka odwiedzin</span>
-              <span data-i18n="featureSeo">podstawowe SEO</span>
-              <span data-i18n="featureAutomation">boty i automatyzacje</span>
-            </div>
+            <ul>
+              <li>Booksy</li>
+              <li data-i18n="capVouchers">Vouchery</li>
+              <li data-i18n="capPayments">Płatności</li>
+              <li data-i18n="capLanguages">Wiele języków</li>
+              <li data-i18n="capBlog">Blog</li>
+              <li>FAQ</li>
+              <li data-i18n="capAnalytics">Analityka</li>
+              <li data-i18n="capBots">Boty</li>
+              <li data-i18n="capAutomation">Automatyzacje</li>
+            </ul>
           </div>
         </div>
       </section>
 
-      <section class="section price" id="price">
+      <section class="price section" id="price">
         <div class="shell price-layout">
-          <div class="price-copy reveal">
-            <p class="section-kicker" data-i18n="priceKicker">Cena</p>
-            <h2 data-i18n="priceTitle">Najprostsza strona zaczyna się od 2 000 zł.</h2>
-            <p data-i18n="priceLead">
-              Końcowa cena zależy od liczby podstron, języków, materiałów i dodatkowych funkcji. Przed rozpoczęciem dostajesz jasny zakres, cenę i termin.
-            </p>
-            <a class="button button-primary" href="#contact" data-i18n="priceButton">Poproś o wycenę</a>
+          <div class="price-intro reveal">
+            <div class="section-label"><span>03</span><i></i><strong data-i18n="priceLabel">CENA BEZ ZGADYWANIA</strong></div>
+            <h2 data-i18n="priceTitle">Wiesz, za co płacisz, zanim zaczniemy.</h2>
+            <p data-i18n="priceLead">Po krótkiej rozmowie dostajesz zakres, cenę i termin. Bez niespodzianek w połowie pracy.</p>
+            <a href="#contact" class="text-arrow">
+              <span data-i18n="priceLink">Zapytaj o swoją stronę</span>
+              <i aria-hidden="true">↘</i>
+            </a>
           </div>
 
           <div class="price-card reveal">
-            <div class="price-card-head">
-              <span data-i18n="priceCardLabel">Strona firmowa</span>
-              <strong data-i18n="priceCardValue">od 2 000 zł</strong>
+            <div class="price-card-top">
+              <span data-i18n="priceCardName">STRONA INTERNETOWA</span>
+              <em data-i18n="priceCardTag">DOBRY START</em>
             </div>
+            <div class="price-value">
+              <small data-i18n="priceFrom">OD</small>
+              <strong>2 000</strong>
+              <span>PLN</span>
+            </div>
+            <p data-i18n="priceDescription">Dla małej firmy, salonu albo specjalisty, który chce wyglądać profesjonalnie w internecie.</p>
             <ul>
-              <li data-i18n="priceItemOne">projekt dopasowany do firmy</li>
-              <li data-i18n="priceItemTwo">czytelna wersja na telefon i komputer</li>
-              <li data-i18n="priceItemThree">oferta, zdjęcia, opinie i kontakt</li>
-              <li data-i18n="priceItemFour">podpięcie domeny i publikacja</li>
-              <li data-i18n="priceItemFive">podstawowe przygotowanie pod Google</li>
-              <li data-i18n="priceItemSix">poprawki ustalone przed startem</li>
+              <li data-i18n="priceOne">indywidualny wygląd</li>
+              <li data-i18n="priceTwo">wersja na telefon i komputer</li>
+              <li data-i18n="priceThree">oferta, zdjęcia i kontakt</li>
+              <li data-i18n="priceFour">podłączenie domeny</li>
+              <li data-i18n="priceFive">podstawowe SEO</li>
+              <li data-i18n="priceSix">publikacja gotowej strony</li>
             </ul>
-            <p data-i18n="priceCardNote">Rozbudowane funkcje wyceniam osobno, zanim zaczniemy pracę.</p>
+            <a href="https://t.me/webdelovper" target="_blank" rel="noreferrer" class="button button-dark-full">
+              <span data-i18n="priceButton">Zapytaj o wycenę</span>
+              <i aria-hidden="true">↗</i>
+            </a>
+            <small class="price-note" data-i18n="priceNote">Większa liczba podstron i dodatkowe funkcje są wyceniane przed rozpoczęciem.</small>
           </div>
         </div>
       </section>
 
-      <section class="section process" id="process">
+      <section class="process section" id="process">
         <div class="shell">
-          <div class="section-heading reveal">
-            <span class="section-number">03</span>
-            <div>
-              <p class="section-kicker" data-i18n="processKicker">Jak pracuję</p>
-              <h2 data-i18n="processTitle">Prosto: ustalamy cel, robię projekt, poprawiamy i publikujemy.</h2>
-            </div>
-          </div>
+          <header class="process-head reveal">
+            <div class="section-label"><span>04</span><i></i><strong data-i18n="processLabel">JAK TO WYGLĄDA</strong></div>
+            <h2 data-i18n="processTitle">Od wiadomości do gotowej strony.</h2>
+          </header>
 
-          <div class="process-grid">
-            <article class="process-step reveal">
+          <div class="process-list">
+            <article class="process-item reveal">
               <span>01</span>
-              <h3 data-i18n="processOneTitle">Krótka rozmowa</h3>
-              <p data-i18n="processOneText">Mówisz, czym zajmuje się firma, co już masz i czego potrzebujesz.</p>
+              <div><h3 data-i18n="processOneTitle">Rozmowa</h3><p data-i18n="processOneText">Poznaję firmę, cel strony i potrzebne funkcje.</p></div>
             </article>
-            <article class="process-step reveal">
+            <article class="process-item reveal">
               <span>02</span>
-              <h3 data-i18n="processTwoTitle">Zakres i cena</h3>
-              <p data-i18n="processTwoText">Ustalamy zawartość strony, termin, koszt i sposób przekazania materiałów.</p>
+              <div><h3 data-i18n="processTwoTitle">Plan i cena</h3><p data-i18n="processTwoText">Ustalamy zawartość, koszt i termin wykonania.</p></div>
             </article>
-            <article class="process-step reveal">
+            <article class="process-item reveal">
               <span>03</span>
-              <h3 data-i18n="processThreeTitle">Projekt i wykonanie</h3>
-              <p data-i18n="processThreeText">Przygotowuję stronę i pokazuję wersję do sprawdzenia.</p>
+              <div><h3 data-i18n="processThreeTitle">Projekt i kod</h3><p data-i18n="processThreeText">Tworzę stronę i pokazuję ją do sprawdzenia.</p></div>
             </article>
-            <article class="process-step reveal">
+            <article class="process-item reveal">
               <span>04</span>
-              <h3 data-i18n="processFourTitle">Poprawki i publikacja</h3>
-              <p data-i18n="processFourText">Wprowadzam ustalone poprawki, sprawdzam stronę i uruchamiam ją na domenie.</p>
+              <div><h3 data-i18n="processFourTitle">Start</h3><p data-i18n="processFourText">Wprowadzam poprawki, testuję i publikuję stronę.</p></div>
             </article>
           </div>
         </div>
       </section>
 
       <section class="contact" id="contact">
-        <div class="shell contact-grid">
-          <div class="contact-copy reveal">
-            <p class="section-kicker" data-i18n="contactKicker">Kontakt</p>
-            <h2 data-i18n="contactTitle">Opowiedz krótko, jakiej strony potrzebujesz.</h2>
-            <p data-i18n="contactLead">
-              Napisz nazwę firmy, branżę i najważniejszy cel strony. Odpowiem, od czego najlepiej zacząć.
-            </p>
-
-            <div class="contact-checklist">
-              <span data-i18n="contactOne">1. Czym zajmuje się firma?</span>
-              <span data-i18n="contactTwo">2. Czy masz już stronę lub domenę?</span>
-              <span data-i18n="contactThree">3. Jakie funkcje są najważniejsze?</span>
-            </div>
-          </div>
-
-          <div class="contact-card reveal">
-            <a href="https://t.me/webdelovper" target="_blank" rel="noreferrer">
-              <span>Telegram</span>
-              <strong>@webdelovper</strong>
+        <div class="contact-shape" aria-hidden="true"></div>
+        <div class="shell contact-inner reveal">
+          <span class="contact-kicker"><i></i><span data-i18n="contactKicker">MASZ POMYSŁ ALBO FIRMĘ?</span></span>
+          <h2 data-i18n="contactTitle">Zróbmy stronę, której nie trzeba się wstydzić.</h2>
+          <p data-i18n="contactLead">Napisz krótko, czym zajmuje się firma i czego potrzebujesz. Odpowiem konkretnie.</p>
+          <div class="contact-actions">
+            <a href="https://t.me/webdelovper" target="_blank" rel="noreferrer" class="contact-main">
+              <span>
+                <small>TELEGRAM</small>
+                <strong>@webdelovper</strong>
+              </span>
               <i aria-hidden="true">↗</i>
             </a>
-            <a href="mailto:superkolze08@gmail.com">
-              <span data-i18n="emailLabel">E-mail</span>
+            <a href="mailto:superkolze08@gmail.com" class="contact-email">
+              <small>E-MAIL</small>
               <strong>superkolze08@gmail.com</strong>
-              <i aria-hidden="true">↗</i>
             </a>
-            <p data-i18n="contactNote">Możemy pracować zdalnie. Obsługuję projekty w całej Polsce.</p>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="shell footer-inner">
+      <div class="shell footer-row">
         <div class="brand footer-brand">
-          <span class="brand-mark">S</span>
-          <span>
-            <strong>Smerthnix</strong>
-            <small data-i18n="footerRole">strony internetowe dla firm</small>
-          </span>
+          <span class="brand-word">SMERTHNIX<span>.</span></span>
+          <small data-i18n="footerRole">WEB DEVELOPER / POLAND</small>
         </div>
-        <p>© <span id="year">2026</span> Smerthnix</p>
-        <a href="https://github.com/superkolze08-netizen/portfolio" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <p>© <span id="year">2026</span> <span data-i18n="footerRights">Wszystkie prawa zastrzeżone</span></p>
+        <div class="footer-links">
+          <a href="https://t.me/webdelovper" target="_blank" rel="noreferrer">TELEGRAM ↗</a>
+          <a href="https://github.com/superkolze08-netizen/portfolio" target="_blank" rel="noreferrer">GITHUB ↗</a>
+        </div>
       </div>
     </footer>
 
-    <script src="script.js?v=10"></script>
+    <script src="script.js?v=11"></script>
   </body>
 </html>
