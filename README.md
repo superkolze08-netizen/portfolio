@@ -27,7 +27,10 @@ Strona zawiera między innymi:
 - strony firmowe i strony usług;
 - landing pages pod reklamę i sprzedaż;
 - poprawę istniejących stron;
-- integracje z Booksy, formularzami i płatnościami;
+- integracje z Booksy, formularzami i płatnościami online;
+- sklepy, koszyki, zamówienia i abonamenty;
+- bazy danych, konta użytkowników i panele administratora;
+- API, powiadomienia e-mail/SMS i systemy rezerwacji;
 - galerie, opinie, cenniki, vouchery, blog i FAQ;
 - kilka wersji językowych;
 - systemy CRM, boty i proste automatyzacje.
