@@ -31,6 +31,7 @@ Strona zawiera między innymi:
 - galerie, opinie, cenniki, vouchery, blog i FAQ;
 - kilka wersji językowych;
 - systemy CRM, boty i proste automatyzacje.
+- 30 dni wsparcia po publikacji strony.
 
 Cena jest ustalana indywidualnie po krótkiej rozmowie i zależy od zakresu projektu.
 
