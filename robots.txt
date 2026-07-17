@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://superkolze08-netizen.github.io/portfolio/sitemap.xml
+
