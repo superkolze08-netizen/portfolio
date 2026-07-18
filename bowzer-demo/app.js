@@ -7,6 +7,22 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
   });
 });
 
+const journeySections = [...document.querySelectorAll('main > section[id]')];
+const journeyLinks = [...document.querySelectorAll('.desktop-nav a[href^="#"]')];
+if (journeySections.length && journeyLinks.length) {
+  const setActiveJourneyStep = (id) => {
+    journeyLinks.forEach((link) => {
+      if (link.getAttribute('href') === `#${id}`) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    });
+  };
+  const journeyObserver = new IntersectionObserver((entries) => {
+    const activeEntry = entries.find((entry) => entry.isIntersecting);
+    if (activeEntry) setActiveJourneyStep(activeEntry.target.id);
+  }, { rootMargin: '-32% 0px -58% 0px', threshold: 0 });
+  journeySections.forEach((section) => journeyObserver.observe(section));
+}
+
 const showroom = document.querySelector('#showroom');
 if (showroom) {
   const observer = new IntersectionObserver((entries) => {
