@@ -1,0 +1,1 @@
+(function(){const a=window.BOWZER_ASSETS||{};document.querySelectorAll('[data-asset]').forEach(i=>{if(a[i.dataset.asset])i.src=a[i.dataset.asset]});const s=document.createElement('style');s.textContent='.entrance::before{background-image:url("'+a['bowzer-exterior.png']+'")}.showroom::before{background-image:url("'+a['bowzer-showroom.png']+'")}';document.head.appendChild(s)})();
