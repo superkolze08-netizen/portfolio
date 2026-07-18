@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#050606">
   <meta name="robots" content="noindex, nofollow, noarchive">
   <title>Bowzer Garaż — wstępna koncepcja wizualna</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260718-3">
 </head>
 <body>
   <header class="site-header">
@@ -75,13 +75,33 @@
         <span>GARAŻ</span>
       </div>
 
-      <div class="bike-scene" aria-hidden="true">
-        <img class="bike rear-bike rear-one" data-asset="em5-carbon.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="">
-        <img class="bike rear-bike rear-two" data-asset="em23.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="">
-        <img class="bike rear-bike rear-three" data-asset="em26.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="">
-        <img class="bike rear-bike rear-four" data-asset="em5-ultra.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="">
+      <div class="bike-scene" role="group" aria-label="Wybierz motocykl z podestu">
         <div class="main-bike-glow"></div>
-        <img class="bike main-bike" data-asset="em5-pro.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Valtinsu EM5 Pro">
+        <button class="bike-slot is-active" type="button" data-model="em5-pro" data-position="front" aria-label="Wybierz Valtinsu EM5 Pro">
+          <img data-asset="em5-pro.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Valtinsu EM5 Pro">
+          <span>EM5 PRO</span>
+        </button>
+        <button class="bike-slot" type="button" data-model="em5-carbon" data-position="right-near" aria-label="Wybierz Valtinsu EM5">
+          <img data-asset="em5-carbon.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Valtinsu EM5">
+          <span>EM5</span>
+        </button>
+        <button class="bike-slot" type="button" data-model="em23" data-position="right-far" aria-label="Wybierz Valtinsu EM23">
+          <img data-asset="em23.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Valtinsu EM23">
+          <span>EM23</span>
+        </button>
+        <button class="bike-slot" type="button" data-model="em26" data-position="left-far" aria-label="Wybierz Valtinsu EM26">
+          <img data-asset="em26.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Valtinsu EM26">
+          <span>EM26</span>
+        </button>
+        <button class="bike-slot" type="button" data-model="em5-ultra" data-position="left-near" aria-label="Wybierz Valtinsu EM5 Ultra">
+          <img data-asset="em5-ultra.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Valtinsu EM5 Ultra">
+          <span>EM5 ULTRA</span>
+        </button>
+      </div>
+      <p class="carousel-hint"><span></span>Kliknij motocykl, aby ustawić go na głównym podeście</p>
+      <div class="carousel-nav" aria-label="Sterowanie karuzelą motocykli">
+        <button type="button" data-carousel="prev" aria-label="Poprzedni model"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+        <button type="button" data-carousel="next" aria-label="Następny model"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
       </div>
 
       <article class="model-card">
@@ -89,19 +109,19 @@
         <div class="model-heading">
           <div>
             <p class="model-kicker">Valtinsu</p>
-            <h2 id="model-title">EM5 PRO</h2>
+            <h2 id="model-title" data-field="name">EM5 PRO</h2>
           </div>
-          <span class="availability"><i></i> Dostępny</span>
+          <span class="availability"><i></i><span data-field="status">Dostępny</span></span>
         </div>
-        <div class="rating"><span>★★★★★</span><b>4.9</b><small>/ 5</small></div>
-        <p class="model-copy">Pełnowymiarowy elektryczny cross stworzony do jazdy w terenie — bez hałasu i bez kompromisów.</p>
+        <div class="rating"><span>★★★★★</span><b data-field="rating">4.9</b><small>/ 5</small></div>
+        <p class="model-copy" data-field="copy">Pełnowymiarowy elektryczny cross stworzony do jazdy w terenie — bez hałasu i bez kompromisów.</p>
         <div class="mobile-specs" aria-label="Najważniejsze parametry">
-          <span><b>5600 W</b><small>Moc szczytowa</small></span>
-          <span><b>80 km/h</b><small>Prędkość maks.</small></span>
-          <span><b>do 100 km</b><small>Zasięg</small></span>
+          <span><b data-spec="power">5600 W</b><small>Moc szczytowa</small></span>
+          <span><b data-spec="speed">80 km/h</b><small>Prędkość maks.</small></span>
+          <span><b data-spec="range">do 100 km</b><small>Zasięg</small></span>
         </div>
         <div class="price-row">
-          <div><strong>13 999 zł</strong><small>Rata od 468 zł / mies.</small></div>
+          <div><strong data-field="price">13 999 zł</strong><small data-field="installment">Rata od 468 zł / mies.</small></div>
           <a class="primary-button compact" href="#showroom">Poznaj model <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></a>
         </div>
       </article>
@@ -109,30 +129,30 @@
       <aside class="spec-panel" aria-label="Specyfikacja EM5 Pro">
         <p>Najważniejsze parametry</p>
         <dl>
-          <div><dt>Moc szczytowa</dt><dd>5600 W</dd></div>
-          <div><dt>Prędkość maks.</dt><dd>80 km/h</dd></div>
-          <div><dt>Zasięg</dt><dd>do 100 km</dd></div>
-          <div><dt>Bateria</dt><dd>60V 27Ah</dd></div>
-          <div><dt>Czas ładowania</dt><dd>7–8 h</dd></div>
+          <div><dt>Moc szczytowa</dt><dd data-spec="power">5600 W</dd></div>
+          <div><dt>Prędkość maks.</dt><dd data-spec="speed">80 km/h</dd></div>
+          <div><dt>Zasięg</dt><dd data-spec="range">do 100 km</dd></div>
+          <div><dt>Bateria</dt><dd data-spec="battery">60V 27Ah</dd></div>
+          <div><dt>Czas ładowania</dt><dd data-spec="charging">7–8 h</dd></div>
         </dl>
         <button type="button" class="outline-button">Porównaj modele</button>
       </aside>
 
       <div class="model-dock" aria-label="Dostępne modele">
         <div class="dock-caption"><span>Modele</span><small>Przesuń, aby wybrać</small></div>
-        <button class="model-thumb active" type="button" disabled>
+        <button class="model-thumb active" type="button" data-model="em5-pro" aria-pressed="true">
           <img data-asset="em5-pro.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt=""><span>EM5 PRO</span><i></i>
         </button>
-        <button class="model-thumb" type="button" disabled>
+        <button class="model-thumb" type="button" data-model="em5-carbon" aria-pressed="false">
           <img data-asset="em5-carbon.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt=""><span>EM5</span>
         </button>
-        <button class="model-thumb" type="button" disabled>
+        <button class="model-thumb" type="button" data-model="em23" aria-pressed="false">
           <img data-asset="em23.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt=""><span>EM23</span>
         </button>
-        <button class="model-thumb mobile-hide" type="button" disabled>
+        <button class="model-thumb" type="button" data-model="em26" aria-pressed="false">
           <img data-asset="em26.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt=""><span>EM26</span>
         </button>
-        <button class="model-thumb mobile-hide" type="button" disabled>
+        <button class="model-thumb" type="button" data-model="em5-ultra" aria-pressed="false">
           <img data-asset="em5-ultra.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt=""><span>EM5 ULTRA</span>
         </button>
       </div>
@@ -148,6 +168,6 @@
   <script src="asset-07.js?v=20260718-2"></script>
   <script src="asset-08.js?v=20260718-2"></script>
   <script src="asset-init.js?v=20260718-2"></script>
-  <script src="app.js?v=20260718-2"></script>
+  <script src="app.js?v=20260718-3"></script>
 </body>
 </html>
