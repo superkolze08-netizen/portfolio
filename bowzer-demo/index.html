@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#050606">
   <meta name="robots" content="noindex, nofollow, noarchive">
   <title>Bowzer Garaż — wstępna koncepcja wizualna</title>
-  <link rel="stylesheet" href="styles.css?v=20260718-5">
+  <link rel="stylesheet" href="styles.css?v=20260718-6">
 </head>
 <body>
   <header class="site-header">
@@ -16,8 +16,8 @@
     <nav class="desktop-nav" aria-label="Główna nawigacja">
       <a href="#showroom">Motocykle</a>
       <a href="#showroom">Bowzer Garaż</a>
-      <a href="#showroom">Serwis</a>
-      <a href="#showroom">Kontakt</a>
+      <a href="#model-presentation">Technologia</a>
+      <a href="#model-presentation">Poznaj model</a>
     </nav>
     <div class="header-actions">
       <button class="language" type="button" aria-label="Język polski">PL</button>
@@ -117,12 +117,12 @@
         <p class="model-copy" data-field="copy">Pełnowymiarowy elektryczny cross stworzony do jazdy w terenie — bez hałasu i bez kompromisów.</p>
         <div class="mobile-specs" aria-label="Najważniejsze parametry">
           <span><b data-spec="power">5600 W</b><small>Moc szczytowa</small></span>
-          <span><b data-spec="speed">80 km/h</b><small>Prędkość maks.</small></span>
-          <span><b data-spec="range">do 100 km</b><small>Zasięg</small></span>
+          <span><b data-spec="speed">83 km/h</b><small>Prędkość maks.</small></span>
+          <span><b data-spec="range">do 80 km</b><small>Zasięg</small></span>
         </div>
         <div class="price-row">
           <div><strong data-field="price">13 999 zł</strong><small data-field="installment">Rata od 468 zł / mies.</small></div>
-          <a class="primary-button compact" href="#showroom">Poznaj model <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></a>
+          <a class="primary-button compact" href="#model-presentation">Poznaj model <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></a>
         </div>
       </article>
 
@@ -130,9 +130,9 @@
         <p>Najważniejsze parametry</p>
         <dl>
           <div><dt>Moc szczytowa</dt><dd data-spec="power">5600 W</dd></div>
-          <div><dt>Prędkość maks.</dt><dd data-spec="speed">80 km/h</dd></div>
-          <div><dt>Zasięg</dt><dd data-spec="range">do 100 km</dd></div>
-          <div><dt>Bateria</dt><dd data-spec="battery">60V 27Ah</dd></div>
+          <div><dt>Prędkość maks.</dt><dd data-spec="speed">83 km/h</dd></div>
+          <div><dt>Zasięg</dt><dd data-spec="range">do 80 km</dd></div>
+          <div><dt>Bateria</dt><dd data-spec="battery">60 V / 27 Ah</dd></div>
           <div><dt>Czas ładowania</dt><dd data-spec="charging">7–8 h</dd></div>
         </dl>
         <button type="button" class="outline-button">Porównaj modele</button>
@@ -157,6 +157,74 @@
         </button>
       </div>
     </section>
+
+    <section class="screen product-stage" id="model-presentation" aria-labelledby="presentation-title">
+      <div class="scene-label"><span>03</span> Prezentacja modelu i podzespołów</div>
+      <a class="back-link" href="#showroom">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+        Wróć do wyboru modeli
+      </a>
+
+      <div class="presentation-heading">
+        <p class="eyebrow"><span></span> Valtinsu / elektryczny cross</p>
+        <h2 id="presentation-title">EM5 <strong>PRO</strong></h2>
+        <p>Dotknij punktów na motocyklu i poznaj technologię, która pracuje pod Tobą.</p>
+      </div>
+
+      <div class="product-viewer" data-viewer>
+        <div class="viewer-glow"></div>
+        <div class="viewer-platform"><span></span></div>
+        <div class="viewer-bike-wrap">
+          <img class="viewer-bike" data-asset="em5-pro.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Valtinsu EM5 Pro — widok motocykla">
+          <button class="hotspot hotspot-led is-active" type="button" data-component="led" aria-label="Poznaj reflektor LED"><i>+</i><span>Reflektor LED</span></button>
+          <button class="hotspot hotspot-fork" type="button" data-component="fork" aria-label="Poznaj przedni amortyzator"><i>+</i><span>Widelec USD</span></button>
+          <button class="hotspot hotspot-battery" type="button" data-component="battery" aria-label="Poznaj akumulator"><i>+</i><span>Bateria 60 V</span></button>
+          <button class="hotspot hotspot-motor" type="button" data-component="motor" aria-label="Poznaj centralny silnik"><i>+</i><span>Mid-Drive</span></button>
+        </div>
+        <div class="viewer-tools" aria-label="Sterowanie widokiem motocykla">
+          <button type="button" data-view-action="rotate"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 14-5M20 12a8 8 0 0 1-14 5"/><path d="M18 3v4h-4M6 21v-4h4"/></svg> Obróć widok</button>
+          <button type="button" data-view-action="zoom"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m16 16 5 5M11 8v6M8 11h6"/></svg> Powiększ</button>
+          <button type="button" data-view-action="fullscreen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5"/></svg> Pełny ekran</button>
+        </div>
+      </div>
+
+      <aside class="component-panel" aria-live="polite">
+        <div class="component-image-wrap">
+          <img data-component-image data-asset="component-led.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Reflektor LED Valtinsu EM5 Pro">
+          <span data-component-count>01 / 04</span>
+        </div>
+        <div class="component-copy">
+          <p data-component-eyebrow>Rozświetl cień</p>
+          <h3 data-component-title>Przedni reflektor LED</h3>
+          <strong data-component-spec>High-Power LED · IP65 / IPX6</strong>
+          <p data-component-description>Punktowa wiązka Spot skupia światło daleko przed motocyklem i poprawia widoczność przeszkód podczas jazdy po zmroku.</p>
+          <div class="component-benefit"><span>Korzyść</span><p data-component-benefit>Lepsza widoczność, większe bezpieczeństwo i charakterystyczny wygląd przedniej części motocykla.</p></div>
+        </div>
+        <div class="component-switcher" aria-label="Wybór podzespołu">
+          <button class="is-active" type="button" data-component="led">01</button>
+          <button type="button" data-component="fork">02</button>
+          <button type="button" data-component="battery">03</button>
+          <button type="button" data-component="motor">04</button>
+        </div>
+      </aside>
+
+      <div class="purchase-bar">
+        <div class="purchase-model"><small>Valtinsu</small><strong>EM5 PRO</strong></div>
+        <div class="purchase-spec"><span>5600 W</span><small>moc szczytowa</small></div>
+        <div class="purchase-spec"><span>83 km/h</span><small>prędkość maks.</small></div>
+        <div class="purchase-spec"><span>do 80 km</span><small>zasięg</small></div>
+        <div class="purchase-price"><strong>13 999 zł</strong><small>Rata od 468 zł / mies.</small></div>
+        <div class="purchase-actions">
+          <button class="outline-button" type="button" data-demo-action="test-ride">Umów jazdę próbną</button>
+          <button class="primary-button compact" type="button" data-demo-action="buy">Kup teraz</button>
+        </div>
+      </div>
+
+      <div class="presentation-trust" aria-label="Obsługa zakupu">
+        <span>24 miesiące gwarancji</span><span>Serwis w Polsce</span><span>Bezpieczna dostawa</span><span>Opieka posprzedażowa</span>
+      </div>
+      <div class="demo-toast" role="status" aria-live="polite"></div>
+    </section>
   </main>
 
   <script src="asset-01.js?v=20260718-2"></script>
@@ -167,7 +235,11 @@
   <script src="asset-06.js?v=20260718-2"></script>
   <script src="asset-07.js?v=20260718-em26-v2"></script>
   <script src="asset-08.js?v=20260718-2"></script>
+  <script src="asset-09.js?v=20260718-stage3"></script>
+  <script src="asset-10.js?v=20260718-stage3"></script>
+  <script src="asset-11.js?v=20260718-stage3"></script>
+  <script src="asset-12.js?v=20260718-stage3"></script>
   <script src="asset-init.js?v=20260718-2"></script>
-  <script src="app.js?v=20260718-3"></script>
+  <script src="app.js?v=20260718-4"></script>
 </body>
 </html>
