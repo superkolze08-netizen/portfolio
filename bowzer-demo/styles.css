@@ -283,15 +283,16 @@ button { color: inherit; font: inherit; }
 .bike-slot::after {
   content: "";
   position: absolute;
-  z-index: -1;
+  z-index: 2;
   left: 50%;
-  bottom: -7px;
+  bottom: -3px;
   width: 72%;
-  height: 18px;
+  height: 22px;
   transform: translateX(-50%);
   border-radius: 50%;
-  background: radial-gradient(ellipse, rgba(0,0,0,.88), rgba(0,0,0,0) 70%);
-  filter: blur(4px);
+  background: radial-gradient(ellipse, rgba(0,0,0,.96), rgba(0,0,0,.72) 42%, rgba(0,0,0,0) 72%);
+  filter: blur(3px);
+  pointer-events: none;
 }
 .bike-slot img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center bottom; pointer-events: none; filter: drop-shadow(0 12px 13px rgba(0,0,0,.76)); transition: filter .4s ease, transform .55s cubic-bezier(.22,.75,.22,1); }
 .bike-slot span {
