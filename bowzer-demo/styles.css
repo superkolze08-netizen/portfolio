@@ -294,7 +294,7 @@ button { color: inherit; font: inherit; }
   filter: blur(3px);
   pointer-events: none;
 }
-.bike-slot img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center bottom; pointer-events: none; filter: drop-shadow(0 12px 13px rgba(0,0,0,.76)); transition: filter .4s ease, transform .55s cubic-bezier(.22,.75,.22,1); }
+.bike-slot img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center bottom; pointer-events: none; filter: drop-shadow(0 12px 13px rgba(0,0,0,.76)); -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 92%, rgba(0,0,0,.88) 96%, transparent 100%); mask-image: linear-gradient(to bottom, #000 0%, #000 92%, rgba(0,0,0,.88) 96%, transparent 100%); transition: filter .4s ease, transform .55s cubic-bezier(.22,.75,.22,1); }
 .bike-slot span {
   position: absolute;
   left: 50%;
