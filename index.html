@@ -6,14 +6,14 @@
     <meta
       id="meta-description"
       name="description"
-      content="Projektuję nowoczesne strony internetowe dla salonów beauty, lokalnych usług i małych firm. Strony firmowe, landing pages, sklepy, rezerwacje i integracje."
+      content="Projektuję i tworzę strony internetowe dla firm usługowych. Indywidualna wycena, wersja mobilna, Booksy, CRM, SEO i potrzebne integracje."
     />
     <meta name="theme-color" content="#0b0b0b" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Smerthnix — strony internetowe dla firm" />
     <meta
       property="og:description"
-      content="Nowoczesne strony internetowe z indywidualną wyceną. Zobacz realizację Fito Relax i opowiedz mi o swojej firmie."
+      content="Strony internetowe z indywidualną wyceną. Zobacz realizację Fito Relax i napisz, czego potrzebuje Twoja firma."
     />
     <meta property="og:url" content="https://superkolze08-netizen.github.io/portfolio/" />
     <meta property="og:image" content="https://fitorelax.pl/assets/massage-ritual-premium.webp" />
@@ -27,7 +27,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css?v=16" />
-    <link rel="stylesheet" href="styles-v2.css?v=2" />
 
     <script type="application/ld+json">
       {
@@ -69,41 +68,16 @@
             <button type="button" data-lang="uk" aria-pressed="false">UA</button>
             <button type="button" data-lang="en" aria-pressed="false">EN</button>
           </div>
-          <button
-            class="menu-toggle"
-            type="button"
-            aria-expanded="false"
-            aria-controls="mobile-navigation"
-            aria-label="Otwórz menu"
-          >
-            <span></span>
-            <span></span>
-          </button>
           <a class="header-contact" href="#contact">
             <span data-i18n="navContact">Porozmawiajmy</span>
             <i aria-hidden="true">↘</i>
           </a>
         </div>
       </div>
-
-      <nav class="mobile-navigation" id="mobile-navigation" aria-label="Nawigacja mobilna">
-        <a href="#work"><span>01</span><strong data-i18n="navWork">Realizacja</strong></a>
-        <a href="#services"><span>02</span><strong data-i18n="navServices">Usługi</strong></a>
-        <a href="#price"><span>03</span><strong data-i18n="navPrice">Cena</strong></a>
-        <a href="#process"><span>04</span><strong data-i18n="navProcess">Proces</strong></a>
-        <a class="mobile-navigation-contact" href="#contact">
-          <strong data-i18n="navContact">Porozmawiajmy</strong>
-          <i aria-hidden="true">↘</i>
-        </a>
-      </nav>
     </header>
 
     <main id="main">
       <section class="hero" id="top">
-        <video class="hero-film" autoplay muted loop playsinline aria-hidden="true">
-          <source src="hero-background.mp4" type="video/mp4" />
-        </video>
-        <div class="hero-film-scrim" aria-hidden="true"></div>
         <div class="hero-grid-bg" aria-hidden="true"></div>
         <div class="shell hero-layout">
           <div class="hero-copy reveal">
@@ -119,7 +93,7 @@
             </h1>
 
             <p class="hero-lead" data-i18n="heroLead">
-              Projektuję strony dla salonów beauty, lokalnych usług i małych firm. Łączę wyrazisty wygląd z prostym przekazem i jasną drogą do kontaktu.
+              Projektuję i tworzę strony dla salonów beauty, lokalnych usług i małych firm. Dobry wygląd, prosty przekaz i jasna droga do kontaktu.
             </p>
 
             <div class="hero-actions">
@@ -295,8 +269,8 @@
         <div class="shell">
           <header class="section-head section-head-light reveal">
             <div class="section-label"><span>02</span><i></i><strong data-i18n="servicesLabel">CO MOGĘ ZROBIĆ</strong></div>
-            <h2 data-i18n="servicesTitle">Wszystko, czego potrzebuje dobra strona. Bez zbędnego chaosu.</h2>
-            <p data-i18n="servicesLead">Od projektu po płatności, rezerwacje i automatyzacje — wybieramy tylko to, co realnie pomaga Twojej firmie.</p>
+            <h2 data-i18n="servicesTitle">Od prostej strony do systemu z płatnościami i bazą danych.</h2>
+            <p data-i18n="servicesLead">Zakres dobieramy do firmy: wygląd, funkcje, integracje i sposób zarządzania.</p>
           </header>
 
           <div class="service-list">
@@ -304,7 +278,7 @@
               <span class="service-number">01</span>
               <div class="service-name">
                 <h3 data-i18n="serviceBusinessTitle">Strona firmowa</h3>
-                <p data-i18n="serviceBusinessText">Profesjonalna prezentacja firmy, która porządkuje ofertę i prowadzi klienta do kontaktu.</p>
+                <p data-i18n="serviceBusinessText">Pełna prezentacja firmy, która buduje zaufanie i prowadzi do kontaktu.</p>
               </div>
               <ul>
                 <li data-i18n="serviceBusinessOne">oferta i cennik</li>
@@ -318,7 +292,7 @@
               <span class="service-number">02</span>
               <div class="service-name">
                 <h3 data-i18n="serviceLandingTitle">Landing page</h3>
-                <p data-i18n="serviceLandingText">Skupiona na jednym celu strona pod reklamę, usługę, produkt albo wydarzenie.</p>
+                <p data-i18n="serviceLandingText">Jedna mocna strona pod reklamę, usługę, produkt albo wydarzenie.</p>
               </div>
               <ul>
                 <li data-i18n="serviceLandingOne">jasna oferta</li>
@@ -330,6 +304,20 @@
 
             <article class="service-row reveal">
               <span class="service-number">03</span>
+              <div class="service-name">
+                <h3 data-i18n="serviceUpgradeTitle">Nowa wersja starej strony</h3>
+                <p data-i18n="serviceUpgradeText">Lepszy wygląd, prostszy tekst i poprawne działanie na telefonie.</p>
+              </div>
+              <ul>
+                <li data-i18n="serviceUpgradeOne">nowy projekt</li>
+                <li data-i18n="serviceUpgradeTwo">szybkość i mobile</li>
+                <li data-i18n="serviceUpgradeThree">nowe funkcje</li>
+              </ul>
+              <span class="service-arrow">↗</span>
+            </article>
+
+            <article class="service-row reveal">
+              <span class="service-number">04</span>
               <div class="service-name">
                 <h3 data-i18n="serviceCommerceTitle">Sklep i płatności online</h3>
                 <p data-i18n="serviceCommerceText">Sprzedaż usług, voucherów lub produktów bezpośrednio na stronie.</p>
@@ -343,15 +331,29 @@
             </article>
 
             <article class="service-row reveal">
-              <span class="service-number">04</span>
+              <span class="service-number">05</span>
               <div class="service-name">
-                <h3 data-i18n="serviceAutomationTitle">Systemy i automatyzacje</h3>
-                <p data-i18n="serviceAutomationText">Panel, baza danych, rezerwacje i integracje, które ograniczają ręczną pracę.</p>
+                <h3 data-i18n="serviceSystemTitle">System z bazą danych</h3>
+                <p data-i18n="serviceSystemText">Konta użytkowników, dane i panel do zarządzania firmą.</p>
               </div>
               <ul>
-                <li data-i18n="serviceAutomationOne">baza danych i konta użytkowników</li>
-                <li data-i18n="serviceAutomationTwo">rezerwacje, e-mail i SMS</li>
-                <li data-i18n="serviceAutomationThree">API, CRM i automatyzacje</li>
+                <li data-i18n="serviceSystemOne">logowanie i role użytkowników</li>
+                <li data-i18n="serviceSystemTwo">baza danych i panel administratora</li>
+                <li data-i18n="serviceSystemThree">CRM, raporty i eksport danych</li>
+              </ul>
+              <span class="service-arrow">↗</span>
+            </article>
+
+            <article class="service-row reveal">
+              <span class="service-number">06</span>
+              <div class="service-name">
+                <h3 data-i18n="serviceAutomationTitle">Rezerwacje i automatyzacje</h3>
+                <p data-i18n="serviceAutomationText">Mniej ręcznej pracy dzięki połączeniu strony z potrzebnymi systemami.</p>
+              </div>
+              <ul>
+                <li data-i18n="serviceAutomationOne">kalendarz i rezerwacje</li>
+                <li data-i18n="serviceAutomationTwo">e-mail, SMS i przypomnienia</li>
+                <li data-i18n="serviceAutomationThree">API, boty i integracje</li>
               </ul>
               <span class="service-arrow">↗</span>
             </article>
@@ -360,20 +362,27 @@
           <div class="capabilities reveal">
             <div>
               <span data-i18n="capabilitiesLabel">DODATKOWE MOŻLIWOŚCI</span>
-              <p data-i18n="capabilitiesLead">Możliwości dopasowane do projektu, nie długa lista dla samej listy.</p>
+              <p data-i18n="capabilitiesLead">Dodajemy tylko to, czego naprawdę potrzebuje firma.</p>
             </div>
             <ul>
               <li>Booksy</li>
               <li data-i18n="capVouchers">Vouchery</li>
               <li data-i18n="capPayments">Płatności online</li>
               <li data-i18n="capDatabase">Baza danych</li>
+              <li data-i18n="capAccounts">Logowanie i konta</li>
               <li data-i18n="capAdmin">Panel administratora</li>
+              <li data-i18n="capStore">Sklep i koszyk</li>
               <li data-i18n="capBooking">Rezerwacje online</li>
               <li data-i18n="capApi">API i integracje</li>
               <li data-i18n="capNotifications">E-mail i SMS</li>
+              <li data-i18n="capSubscriptions">Abonamenty</li>
               <li data-i18n="capLanguages">Wiele języków</li>
+              <li data-i18n="capBlog">Blog</li>
+              <li>FAQ</li>
               <li data-i18n="capAnalytics">Analityka</li>
-              <li data-i18n="capCRM">CRM i obsługa klientów</li>
+              <li data-i18n="capBots">Boty</li>
+              <li data-i18n="capAutomation">Automatyzacje</li>
+              <li data-i18n="capCRM">CRM — baza i obsługa klientów</li>
             </ul>
           </div>
         </div>
@@ -384,7 +393,7 @@
           <div class="price-intro reveal">
             <div class="section-label"><span>03</span><i></i><strong data-i18n="priceLabel">CENA BEZ ZGADYWANIA</strong></div>
             <h2 data-i18n="priceTitle">Cena dopasowana do zakresu. Bez niespodzianek.</h2>
-            <p data-i18n="priceLead">Najpierw poznaję Twoją firmę i zakres projektu. Potem otrzymujesz konkretny plan, cenę i termin — bez ukrytych niespodzianek.</p>
+            <p data-i18n="priceLead">Najpierw ustalamy, czego potrzebuje firma. Potem dostajesz konkretny zakres, cenę i termin.</p>
             <a href="#contact" class="text-arrow">
               <span data-i18n="priceLink">Zapytaj o swoją stronę</span>
               <i aria-hidden="true">↘</i>
@@ -452,8 +461,8 @@
         <div class="contact-shape" aria-hidden="true"></div>
         <div class="shell contact-inner reveal">
           <span class="contact-kicker"><i></i><span data-i18n="contactKicker">MASZ POMYSŁ ALBO FIRMĘ?</span></span>
-          <h2 data-i18n="contactTitle">Zróbmy stronę, która dobrze wygląda i jeszcze lepiej pracuje.</h2>
-          <p data-i18n="contactLead">Napisz, czym zajmuje się Twoja firma i czego potrzebujesz. Odpowiem konkretnie i zaproponuję najlepszy kierunek.</p>
+          <h2 data-i18n="contactTitle">Zróbmy stronę, której nie trzeba się wstydzić.</h2>
+          <p data-i18n="contactLead">Napisz o dowolnej porze, czym zajmuje się firma i czego potrzebujesz. Odpowiem konkretnie.</p>
           <div class="contact-actions">
             <a href="https://t.me/webdelovper" target="_blank" rel="noreferrer" class="contact-main">
               <span>
@@ -490,6 +499,6 @@
       </div>
     </footer>
 
-    <script src="script.js?v=18"></script>
+    <script src="script.js?v=16"></script>
   </body>
 </html>

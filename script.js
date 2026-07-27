@@ -11,7 +11,7 @@ const translations = {
     availability: "Беру новые проекты",
     heroLineOne: "Сайт, который превращает",
     heroLineTwo: "бизнес в бренд.",
-    heroLead: "Создаю сайты для beauty-салонов, локальных услуг и небольших компаний. Соединяю выразительный дизайн, простой текст и понятный путь к обращению.",
+    heroLead: "Создаю сайты для beauty-салонов, локальных услуг и небольших компаний. Сильный дизайн, простой текст и понятный путь к контакту.",
     heroWork: "Посмотреть мою работу",
     heroWrite: "Написать в Telegram",
     heroFactOneLabel: "Цена сайта",
@@ -44,15 +44,15 @@ const translations = {
     projectResultLabel: "РЕЗУЛЬТАТ",
     projectResult: "Полноценный сайт для телефона и компьютера с простым переходом к записи.",
     servicesLabel: "ЧТО Я МОГУ СДЕЛАТЬ",
-    servicesTitle: "Всё, что нужно хорошему сайту. Без лишнего хаоса.",
-    servicesLead: "От дизайна до оплаты, записи и автоматизации — выбираем только то, что действительно помогает вашему бизнесу.",
+    servicesTitle: "От простого сайта до системы с оплатой и базой данных.",
+    servicesLead: "Подбираем решение под бизнес: дизайн, функции, интеграции и управление.",
     serviceBusinessTitle: "Сайт компании",
-    serviceBusinessText: "Профессиональная презентация бизнеса, которая упорядочивает предложение и ведёт клиента к обращению.",
+    serviceBusinessText: "Полная презентация бизнеса, которая вызывает доверие и ведёт к обращению.",
     serviceBusinessOne: "услуги и цены",
     serviceBusinessTwo: "галерея и отзывы",
     serviceBusinessThree: "контакты, карта и SEO",
     serviceLandingTitle: "Лендинг",
-    serviceLandingText: "Сфокусированная на одной цели страница для рекламы, услуги, продукта или события.",
+    serviceLandingText: "Одна сильная страница для рекламы, услуги, продукта или события.",
     serviceLandingOne: "понятное предложение",
     serviceLandingTwo: "форма и кнопки",
     serviceLandingThree: "продающие блоки",
@@ -71,13 +71,13 @@ const translations = {
     serviceSystemOne: "вход и роли пользователей",
     serviceSystemTwo: "база данных и админ-панель",
     serviceSystemThree: "CRM, отчёты и экспорт данных",
-    serviceAutomationTitle: "Системы и автоматизация",
-    serviceAutomationText: "Панель, база данных, запись и интеграции, которые сокращают ручную работу.",
-    serviceAutomationOne: "база данных и аккаунты пользователей",
-    serviceAutomationTwo: "запись, e-mail и SMS",
-    serviceAutomationThree: "API, CRM и автоматизация",
+    serviceAutomationTitle: "Запись и автоматизация",
+    serviceAutomationText: "Меньше ручной работы благодаря подключению нужных систем.",
+    serviceAutomationOne: "календарь и онлайн-запись",
+    serviceAutomationTwo: "e-mail, SMS и напоминания",
+    serviceAutomationThree: "API, боты и интеграции",
     capabilitiesLabel: "ДОПОЛНИТЕЛЬНЫЕ ВОЗМОЖНОСТИ",
-    capabilitiesLead: "Возможности подбираются под проект, а не ради длинного списка.",
+    capabilitiesLead: "Добавим только то, что действительно нужно бизнесу.",
     capVouchers: "Сертификаты",
     capPayments: "Онлайн-оплата",
     capDatabase: "База данных",
@@ -93,10 +93,10 @@ const translations = {
     capAnalytics: "Аналитика",
     capBots: "Боты",
     capAutomation: "Автоматизация",
-    capCRM: "CRM и работа с клиентами",
+    capCRM: "CRM — база и работа с клиентами",
     priceLabel: "ЦЕНА БЕЗ ДОГАДОК",
     priceTitle: "Цена зависит от задачи. Без сюрпризов.",
-    priceLead: "Сначала я знакомлюсь с вашим бизнесом и задачей. Затем вы получаете конкретный план, цену и срок — без скрытых сюрпризов.",
+    priceLead: "Сначала определяем, что нужно бизнесу. Затем вы получаете точный объём работ, цену и срок.",
     priceLink: "Спросить о своём сайте",
     priceCardName: "ИНДИВИДУАЛЬНЫЙ РАСЧЁТ",
     priceCardTag: "ПОСЛЕ ОБСУЖДЕНИЯ",
@@ -124,8 +124,8 @@ const translations = {
     processFourTitle: "Запуск и поддержка",
     processFourText: "Публикую сайт и предоставляю 30 дней поддержки после запуска.",
     contactKicker: "ЕСТЬ ИДЕЯ ИЛИ БИЗНЕС?",
-    contactTitle: "Сделаем сайт, который отлично выглядит и ещё лучше работает.",
-    contactLead: "Расскажите, чем занимается ваш бизнес и что вам нужно. Отвечу конкретно и предложу лучший путь.",
+    contactTitle: "Сделаем сайт, который хочется показывать.",
+    contactLead: "Напишите в любое время, чем занимается компания и какой сайт нужен. Отвечу конкретно.",
     contactTelegramLabel: "TELEGRAM • СВЯЗЬ 24/7",
     footerRole: "WEB DEVELOPER / POLAND",
     footerRights: "Все права защищены"
@@ -140,7 +140,7 @@ const translations = {
     availability: "Беру нові проєкти",
     heroLineOne: "Сайт, який перетворює",
     heroLineTwo: "бізнес на бренд.",
-    heroLead: "Створюю сайти для beauty-салонів, локальних послуг і невеликих компаній. Поєдную виразний дизайн, простий текст і зрозумілий шлях до звернення.",
+    heroLead: "Створюю сайти для beauty-салонів, локальних послуг і невеликих компаній. Сильний дизайн, простий текст і зрозумілий шлях до контакту.",
     heroWork: "Переглянути мою роботу",
     heroWrite: "Написати в Telegram",
     heroFactOneLabel: "Ціна сайту",
@@ -173,15 +173,15 @@ const translations = {
     projectResultLabel: "РЕЗУЛЬТАТ",
     projectResult: "Повноцінний сайт для телефона й комп’ютера з простим переходом до запису.",
     servicesLabel: "ЩО Я МОЖУ ЗРОБИТИ",
-    servicesTitle: "Усе, що потрібно хорошому сайту. Без зайвого хаосу.",
-    servicesLead: "Від дизайну до оплати, запису й автоматизації — обираємо лише те, що справді допомагає вашому бізнесу.",
+    servicesTitle: "Від простого сайту до системи з оплатою та базою даних.",
+    servicesLead: "Підбираємо рішення під бізнес: дизайн, функції, інтеграції та керування.",
     serviceBusinessTitle: "Сайт компанії",
-    serviceBusinessText: "Професійна презентація бізнесу, яка впорядковує пропозицію та веде клієнта до звернення.",
+    serviceBusinessText: "Повна презентація бізнесу, яка викликає довіру та веде до звернення.",
     serviceBusinessOne: "послуги та ціни",
     serviceBusinessTwo: "галерея та відгуки",
     serviceBusinessThree: "контакти, карта та SEO",
     serviceLandingTitle: "Лендінг",
-    serviceLandingText: "Сфокусована на одній меті сторінка для реклами, послуги, продукту або події.",
+    serviceLandingText: "Одна сильна сторінка для реклами, послуги, продукту або події.",
     serviceLandingOne: "зрозуміла пропозиція",
     serviceLandingTwo: "форма та кнопки",
     serviceLandingThree: "продажні блоки",
@@ -200,13 +200,13 @@ const translations = {
     serviceSystemOne: "вхід і ролі користувачів",
     serviceSystemTwo: "база даних та адмін-панель",
     serviceSystemThree: "CRM, звіти та експорт даних",
-    serviceAutomationTitle: "Системи й автоматизація",
-    serviceAutomationText: "Панель, база даних, запис та інтеграції, які скорочують ручну роботу.",
-    serviceAutomationOne: "база даних та акаунти користувачів",
-    serviceAutomationTwo: "запис, e-mail і SMS",
-    serviceAutomationThree: "API, CRM та автоматизація",
+    serviceAutomationTitle: "Запис і автоматизація",
+    serviceAutomationText: "Менше ручної роботи завдяки підключенню потрібних систем.",
+    serviceAutomationOne: "календар та онлайн-запис",
+    serviceAutomationTwo: "e-mail, SMS і нагадування",
+    serviceAutomationThree: "API, боти та інтеграції",
     capabilitiesLabel: "ДОДАТКОВІ МОЖЛИВОСТІ",
-    capabilitiesLead: "Можливості добираються під проєкт, а не заради довгого списку.",
+    capabilitiesLead: "Додамо лише те, що справді потрібно бізнесу.",
     capVouchers: "Сертифікати",
     capPayments: "Онлайн-оплата",
     capDatabase: "База даних",
@@ -222,10 +222,10 @@ const translations = {
     capAnalytics: "Аналітика",
     capBots: "Боти",
     capAutomation: "Автоматизація",
-    capCRM: "CRM та робота з клієнтами",
+    capCRM: "CRM — база та робота з клієнтами",
     priceLabel: "ЦІНА БЕЗ ЗДОГАДОК",
     priceTitle: "Ціна залежить від завдання. Без сюрпризів.",
-    priceLead: "Спочатку я знайомлюся з вашим бізнесом і завданням. Потім ви отримуєте конкретний план, ціну та строк — без прихованих сюрпризів.",
+    priceLead: "Спочатку визначаємо, що потрібно бізнесу. Потім ви отримуєте точний обсяг робіт, ціну та строк.",
     priceLink: "Запитати про свій сайт",
     priceCardName: "ІНДИВІДУАЛЬНА ОЦІНКА",
     priceCardTag: "ПІСЛЯ РОЗМОВИ",
@@ -253,8 +253,8 @@ const translations = {
     processFourTitle: "Запуск і підтримка",
     processFourText: "Публікую сайт і надаю 30 днів підтримки після запуску.",
     contactKicker: "Є ІДЕЯ АБО БІЗНЕС?",
-    contactTitle: "Зробімо сайт, який чудово виглядає і ще краще працює.",
-    contactLead: "Розкажіть, чим займається ваш бізнес і що вам потрібно. Відповім конкретно та запропоную найкращий напрям.",
+    contactTitle: "Зробімо сайт, який хочеться показувати.",
+    contactLead: "Напишіть у будь-який час, чим займається компанія та який сайт потрібен. Відповім конкретно.",
     contactTelegramLabel: "TELEGRAM • ЗВ’ЯЗОК 24/7",
     footerRole: "WEB DEVELOPER / POLAND",
     footerRights: "Усі права захищені"
@@ -269,7 +269,7 @@ const translations = {
     availability: "Available for new projects",
     heroLineOne: "A website that turns",
     heroLineTwo: "a business into a brand.",
-    heroLead: "I build websites for beauty salons, local services and small businesses. I combine a distinctive look with clear copy and an easy path to contact.",
+    heroLead: "I build websites for beauty salons, local services and small businesses. Strong design, simple copy and a clear path to contact.",
     heroWork: "See my work",
     heroWrite: "Message me on Telegram",
     heroFactOneLabel: "Website price",
@@ -302,15 +302,15 @@ const translations = {
     projectResultLabel: "RESULT",
     projectResult: "A complete mobile and desktop website with a simple path to booking.",
     servicesLabel: "WHAT I CAN BUILD",
-    servicesTitle: "Everything a strong website needs. Without the clutter.",
-    servicesLead: "From design to payments, bookings and automation — we choose only what genuinely helps your business.",
+    servicesTitle: "From a simple website to payments and database systems.",
+    servicesLead: "We match the solution to the business: design, features, integrations and management.",
     serviceBusinessTitle: "Business website",
-    serviceBusinessText: "A professional business presentation that organises your offer and guides clients towards an enquiry.",
+    serviceBusinessText: "A complete business presentation that builds trust and leads to enquiries.",
     serviceBusinessOne: "services and pricing",
     serviceBusinessTwo: "gallery and reviews",
     serviceBusinessThree: "contact, map and SEO",
     serviceLandingTitle: "Landing page",
-    serviceLandingText: "A focused, single-goal page for an ad, service, product or event.",
+    serviceLandingText: "One focused page for an ad, service, product or event.",
     serviceLandingOne: "clear offer",
     serviceLandingTwo: "form and buttons",
     serviceLandingThree: "sales sections",
@@ -329,13 +329,13 @@ const translations = {
     serviceSystemOne: "login and user roles",
     serviceSystemTwo: "database and admin panel",
     serviceSystemThree: "CRM, reports and data export",
-    serviceAutomationTitle: "Systems and automation",
-    serviceAutomationText: "An admin panel, database, bookings and integrations that reduce manual work.",
-    serviceAutomationOne: "database and user accounts",
-    serviceAutomationTwo: "bookings, e-mail and SMS",
-    serviceAutomationThree: "API, CRM and automation",
+    serviceAutomationTitle: "Bookings and automation",
+    serviceAutomationText: "Less manual work by connecting the website to the systems you need.",
+    serviceAutomationOne: "calendar and online booking",
+    serviceAutomationTwo: "e-mail, SMS and reminders",
+    serviceAutomationThree: "API, bots and integrations",
     capabilitiesLabel: "EXTRA CAPABILITIES",
-    capabilitiesLead: "Capabilities are selected for the project, not to make a long list.",
+    capabilitiesLead: "We add only what the business actually needs.",
     capVouchers: "Vouchers",
     capPayments: "Online payments",
     capDatabase: "Database",
@@ -351,10 +351,10 @@ const translations = {
     capAnalytics: "Analytics",
     capBots: "Bots",
     capAutomation: "Automation",
-    capCRM: "CRM and client management",
+    capCRM: "CRM — client database and management",
     priceLabel: "A CLEAR PRICE",
     priceTitle: "A price matched to the scope. No surprises.",
-    priceLead: "First, I learn about your business and the project scope. Then you receive a clear plan, price and delivery date — with no hidden surprises.",
+    priceLead: "First, we define what the business needs. Then you get a clear scope, price and delivery date.",
     priceLink: "Ask about your website",
     priceCardName: "INDIVIDUAL QUOTE",
     priceCardTag: "AFTER A CALL",
@@ -382,8 +382,8 @@ const translations = {
     processFourTitle: "Launch and support",
     processFourText: "I publish the website and provide 30 days of support after launch.",
     contactKicker: "HAVE AN IDEA OR A BUSINESS?",
-    contactTitle: "Let's build a website that looks great and works even better.",
-    contactLead: "Tell me what your business does and what you need. I will give you a clear answer and recommend the best direction.",
+    contactTitle: "Let's build a website you'll want to show people.",
+    contactLead: "Message me at any time with what the business does and what kind of site you need. I'll give you a clear answer.",
     contactTelegramLabel: "TELEGRAM • CONTACT 24/7",
     footerRole: "WEB DEVELOPER / POLAND",
     footerRights: "All rights reserved"
@@ -393,7 +393,7 @@ const translations = {
 const pageMeta = {
   pl: {
     title: "Smerthnix — strony internetowe dla firm",
-    description: "Projektuję nowoczesne strony internetowe dla salonów beauty, lokalnych usług i małych firm. Strony firmowe, landing pages, sklepy, rezerwacje i integracje."
+    description: "Projektuję i tworzę strony internetowe dla firm usługowych. Indywidualna wycena, wersja mobilna, Booksy, CRM, SEO i potrzebne integracje."
   },
   ru: {
     title: "Smerthnix — сайты для бизнеса",
@@ -455,47 +455,6 @@ applyLanguage(savedLanguage);
 const year = document.querySelector("#year");
 if (year) year.textContent = new Date().getFullYear();
 
-const siteHeader = document.querySelector(".site-header");
-const menuToggle = document.querySelector(".menu-toggle");
-const mobileNavigation = document.querySelector(".mobile-navigation");
-
-function closeMobileNavigation() {
-  if (!menuToggle || !mobileNavigation) return;
-  menuToggle.setAttribute("aria-expanded", "false");
-  menuToggle.setAttribute("aria-label", "Otwórz menu");
-  mobileNavigation.classList.remove("is-open");
-  document.body.classList.remove("menu-open");
-}
-
-if (menuToggle && mobileNavigation) {
-  menuToggle.addEventListener("click", () => {
-    const willOpen = menuToggle.getAttribute("aria-expanded") !== "true";
-    menuToggle.setAttribute("aria-expanded", String(willOpen));
-    menuToggle.setAttribute("aria-label", willOpen ? "Zamknij menu" : "Otwórz menu");
-    mobileNavigation.classList.toggle("is-open", willOpen);
-    document.body.classList.toggle("menu-open", willOpen);
-  });
-
-  mobileNavigation.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", closeMobileNavigation);
-  });
-
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") closeMobileNavigation();
-  });
-
-  window.addEventListener("resize", () => {
-    if (window.innerWidth > 860) closeMobileNavigation();
-  }, { passive: true });
-}
-
-function updateHeaderState() {
-  if (siteHeader) siteHeader.classList.toggle("is-scrolled", window.scrollY > 24);
-}
-
-updateHeaderState();
-window.addEventListener("scroll", updateHeaderState, { passive: true });
-
 const revealItems = document.querySelectorAll(".reveal");
 if ("IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver(
@@ -514,8 +473,7 @@ if ("IntersectionObserver" in window) {
 }
 
 const finePointer = window.matchMedia("(pointer: fine)");
-const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-if (finePointer.matches && !reducedMotion.matches) {
+if (finePointer.matches) {
   window.addEventListener("pointermove", (event) => {
     document.documentElement.style.setProperty("--pointer-x", `${event.clientX}px`);
     document.documentElement.style.setProperty("--pointer-y", `${event.clientY}px`);
@@ -539,24 +497,4 @@ if (finePointer.matches && !reducedMotion.matches) {
       phone.style.transform = "";
     });
   }
-
-  document.querySelectorAll(".service-row").forEach((card) => {
-    card.addEventListener("pointermove", (event) => {
-      const box = card.getBoundingClientRect();
-      const x = (event.clientX - box.left) / box.width;
-      const y = (event.clientY - box.top) / box.height;
-      const rotateX = (0.5 - y) * 5;
-      const rotateY = (x - 0.5) * 6;
-
-      card.style.setProperty("--spot-x", `${x * 100}%`);
-      card.style.setProperty("--spot-y", `${y * 100}%`);
-      card.style.transform = `perspective(950px) translateY(-8px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-      card.classList.add("is-tilting");
-    });
-
-    card.addEventListener("pointerleave", () => {
-      card.style.transform = "";
-      card.classList.remove("is-tilting");
-    });
-  });
 }
