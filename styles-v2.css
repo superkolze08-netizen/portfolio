@@ -335,6 +335,7 @@ body::before {
 
 .services {
   position: relative;
+  overflow: hidden;
   background:
     radial-gradient(circle at 15% 22%, rgba(107, 80, 255, 0.14), transparent 28rem),
     #09090c;
@@ -353,28 +354,67 @@ body::before {
   mask-image: linear-gradient(to bottom, black, transparent 88%);
 }
 
+.services::after {
+  position: absolute;
+  top: 16%;
+  right: -14rem;
+  width: 34rem;
+  height: 34rem;
+  border-radius: 50%;
+  content: "";
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(107, 80, 255, 0.2), transparent 67%);
+  filter: blur(14px);
+  animation: service-aurora 14s ease-in-out infinite alternate;
+}
+
+.services .shell {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes service-aurora {
+  from {
+    opacity: 0.55;
+    transform: translate3d(0, -4%, 0) scale(0.92);
+  }
+
+  to {
+    opacity: 0.95;
+    transform: translate3d(-18%, 16%, 0) scale(1.12);
+  }
+}
+
 .service-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
 }
 
 .service-row {
+  --spot-x: 50%;
+  --spot-y: 50%;
   position: relative;
   display: flex;
-  min-height: 350px;
-  padding: 34px;
+  min-height: 380px;
+  padding: 38px;
   overflow: hidden;
   flex-direction: column;
   align-items: stretch;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 24px;
-  background: rgba(255, 255, 255, 0.035);
+  color: var(--white);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02)),
+    rgba(255, 255, 255, 0.015);
   gap: 0;
+  transform-style: preserve-3d;
+  will-change: transform;
   transition:
     transform 350ms var(--ease),
     border-color 350ms ease,
-    background 350ms ease;
+    background 350ms ease,
+    box-shadow 350ms ease;
 }
 
 .service-row::before {
@@ -383,15 +423,67 @@ body::before {
   height: 180px;
   border: 1px solid rgba(214, 255, 63, 0.14);
   border-radius: 50%;
+  background: transparent;
   opacity: 1;
   transform: none;
+  transition:
+    width 500ms var(--ease),
+    height 500ms var(--ease),
+    border-color 350ms ease,
+    transform 500ms var(--ease);
+}
+
+.service-row::after {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  border-radius: inherit;
+  content: "";
+  pointer-events: none;
+  background:
+    radial-gradient(circle at var(--spot-x) var(--spot-y), rgba(214, 255, 63, 0.18), transparent 28%),
+    radial-gradient(circle at var(--spot-x) var(--spot-y), rgba(107, 80, 255, 0.13), transparent 56%);
+  opacity: 0;
+  transition: opacity 320ms ease;
+}
+
+.service-row > * {
+  position: relative;
+  z-index: 2;
 }
 
 .service-row:hover {
-  padding: 34px;
-  border-color: rgba(214, 255, 63, 0.38);
-  background: rgba(255, 255, 255, 0.065);
-  transform: translateY(-6px);
+  padding: 38px;
+  color: var(--white);
+  border-color: rgba(214, 255, 63, 0.5);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.085), rgba(255, 255, 255, 0.028)),
+    rgba(255, 255, 255, 0.02);
+  box-shadow:
+    0 26px 60px rgba(0, 0, 0, 0.24),
+    inset 0 1px rgba(255, 255, 255, 0.07);
+  transform: translateY(-8px);
+}
+
+.service-row:hover::before {
+  width: 240px;
+  height: 240px;
+  border-color: rgba(214, 255, 63, 0.28);
+  background: transparent;
+  transform: translate3d(-10px, -8px, 0);
+}
+
+.service-row:hover::after,
+.service-row.is-tilting::after {
+  opacity: 1;
+}
+
+.service-row.is-tilting {
+  transition:
+    transform 80ms linear,
+    border-color 300ms ease,
+    background 300ms ease,
+    box-shadow 300ms ease;
 }
 
 .service-number {
@@ -399,20 +491,27 @@ body::before {
   color: var(--accent);
 }
 
+.service-row:hover .service-number {
+  color: var(--accent);
+}
+
 .service-name {
-  margin-top: 52px;
+  margin-top: 62px;
+  transform: translateZ(22px);
 }
 
 .service-name h3 {
-  max-width: 360px;
-  font-size: clamp(30px, 2.7vw, 42px);
+  max-width: 520px;
+  color: var(--white);
+  font-size: clamp(34px, 3vw, 48px);
   letter-spacing: -0.055em;
   line-height: 0.98;
 }
 
-.service-name p {
-  max-width: 380px;
-  color: rgba(255, 255, 255, 0.5);
+.service-name p,
+.service-row:hover .service-name p {
+  max-width: 500px;
+  color: rgba(255, 255, 255, 0.58);
 }
 
 .service-row ul {
@@ -427,6 +526,14 @@ body::before {
   color: rgba(255, 255, 255, 0.62);
 }
 
+.service-row:hover li {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.service-row:hover li::before {
+  background: var(--accent);
+}
+
 .service-arrow {
   position: absolute;
   top: 27px;
@@ -437,6 +544,19 @@ body::before {
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 50%;
   place-items: center;
+  color: var(--white);
+  transition:
+    color 280ms ease,
+    border-color 280ms ease,
+    background 280ms ease,
+    transform 320ms var(--ease);
+}
+
+.service-row:hover .service-arrow {
+  color: var(--ink);
+  border-color: var(--accent);
+  background: var(--accent);
+  transform: translate(4px, -4px) rotate(8deg);
 }
 
 .capabilities {
@@ -450,6 +570,18 @@ body::before {
 .capabilities li {
   border-color: rgba(255, 255, 255, 0.14);
   background: rgba(255, 255, 255, 0.035);
+  transition:
+    color 240ms ease,
+    border-color 240ms ease,
+    background 240ms ease,
+    transform 280ms var(--ease);
+}
+
+.capabilities li:hover {
+  color: var(--ink);
+  border-color: var(--accent);
+  background: var(--accent);
+  transform: translateY(-3px);
 }
 
 .price {
@@ -608,6 +740,36 @@ body::before {
 
 .js .reveal.is-visible {
   transform: translateY(0) scale(1);
+}
+
+.js .service-row.reveal.is-visible {
+  transition:
+    transform 350ms var(--ease),
+    border-color 350ms ease,
+    background 350ms ease,
+    box-shadow 350ms ease,
+    opacity 780ms var(--ease);
+}
+
+.js .service-row.reveal.is-visible.is-tilting {
+  transition:
+    transform 80ms linear,
+    border-color 300ms ease,
+    background 300ms ease,
+    box-shadow 300ms ease,
+    opacity 780ms var(--ease);
+}
+
+.service-row:nth-child(2) {
+  transition-delay: 70ms;
+}
+
+.service-row:nth-child(3) {
+  transition-delay: 120ms;
+}
+
+.service-row:nth-child(4) {
+  transition-delay: 180ms;
 }
 
 @media (max-width: 1180px) {
@@ -862,6 +1024,7 @@ body::before {
   .service-row:hover {
     min-height: 300px;
     padding: 26px;
+    transform: none;
   }
 
   .service-name {
@@ -913,5 +1076,18 @@ body::before {
 @media (prefers-reduced-motion: reduce) {
   .hero-film {
     display: none;
+  }
+
+  .services::after {
+    animation: none;
+  }
+
+  .service-row,
+  .service-row:hover,
+  .service-row.is-tilting,
+  .capabilities li,
+  .capabilities li:hover {
+    transition: none;
+    transform: none;
   }
 }
