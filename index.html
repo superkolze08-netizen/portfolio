@@ -27,6 +27,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css?v=16" />
+    <link rel="stylesheet" href="styles-v2.css?v=1" />
 
     <script type="application/ld+json">
       {
@@ -68,16 +69,41 @@
             <button type="button" data-lang="uk" aria-pressed="false">UA</button>
             <button type="button" data-lang="en" aria-pressed="false">EN</button>
           </div>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-navigation"
+            aria-label="Otwórz menu"
+          >
+            <span></span>
+            <span></span>
+          </button>
           <a class="header-contact" href="#contact">
             <span data-i18n="navContact">Porozmawiajmy</span>
             <i aria-hidden="true">↘</i>
           </a>
         </div>
       </div>
+
+      <nav class="mobile-navigation" id="mobile-navigation" aria-label="Nawigacja mobilna">
+        <a href="#work"><span>01</span><strong data-i18n="navWork">Realizacja</strong></a>
+        <a href="#services"><span>02</span><strong data-i18n="navServices">Usługi</strong></a>
+        <a href="#price"><span>03</span><strong data-i18n="navPrice">Cena</strong></a>
+        <a href="#process"><span>04</span><strong data-i18n="navProcess">Proces</strong></a>
+        <a class="mobile-navigation-contact" href="#contact">
+          <strong data-i18n="navContact">Porozmawiajmy</strong>
+          <i aria-hidden="true">↘</i>
+        </a>
+      </nav>
     </header>
 
     <main id="main">
       <section class="hero" id="top">
+        <video class="hero-film" autoplay muted loop playsinline aria-hidden="true">
+          <source src="hero-background.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-film-scrim" aria-hidden="true"></div>
         <div class="hero-grid-bg" aria-hidden="true"></div>
         <div class="shell hero-layout">
           <div class="hero-copy reveal">
@@ -499,6 +525,6 @@
       </div>
     </footer>
 
-    <script src="script.js?v=16"></script>
+    <script src="script.js?v=17"></script>
   </body>
 </html>

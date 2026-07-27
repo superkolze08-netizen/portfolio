@@ -455,6 +455,47 @@ applyLanguage(savedLanguage);
 const year = document.querySelector("#year");
 if (year) year.textContent = new Date().getFullYear();
 
+const siteHeader = document.querySelector(".site-header");
+const menuToggle = document.querySelector(".menu-toggle");
+const mobileNavigation = document.querySelector(".mobile-navigation");
+
+function closeMobileNavigation() {
+  if (!menuToggle || !mobileNavigation) return;
+  menuToggle.setAttribute("aria-expanded", "false");
+  menuToggle.setAttribute("aria-label", "Otwórz menu");
+  mobileNavigation.classList.remove("is-open");
+  document.body.classList.remove("menu-open");
+}
+
+if (menuToggle && mobileNavigation) {
+  menuToggle.addEventListener("click", () => {
+    const willOpen = menuToggle.getAttribute("aria-expanded") !== "true";
+    menuToggle.setAttribute("aria-expanded", String(willOpen));
+    menuToggle.setAttribute("aria-label", willOpen ? "Zamknij menu" : "Otwórz menu");
+    mobileNavigation.classList.toggle("is-open", willOpen);
+    document.body.classList.toggle("menu-open", willOpen);
+  });
+
+  mobileNavigation.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", closeMobileNavigation);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeMobileNavigation();
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 860) closeMobileNavigation();
+  }, { passive: true });
+}
+
+function updateHeaderState() {
+  if (siteHeader) siteHeader.classList.toggle("is-scrolled", window.scrollY > 24);
+}
+
+updateHeaderState();
+window.addEventListener("scroll", updateHeaderState, { passive: true });
+
 const revealItems = document.querySelectorAll(".reveal");
 if ("IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver(
