@@ -1,4 +1,4 @@
-# Smerthnix
+# WebDevolper01
 
 Robię strony dla salonów beauty, gabinetów i lokalnych firm. Projektuję, piszę kod i publikuję gotową stronę.
 

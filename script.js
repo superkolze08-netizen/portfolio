@@ -14,7 +14,7 @@ const translations = {
     menuOpen: "Меню",
     heroKicker: "Сайты для небольших компаний",
     heroClock: "Польша",
-    heroH1: "Smerthnix — сайты для салонов и малого бизнеса",
+    heroH1: "WebDevolper01 — сайты для салонов и малого бизнеса",
     heroLead: "Делаю сайты для beauty-салонов, кабинетов и местного бизнеса. Продумываю дизайн, пишу код и запускаю готовый сайт. Вы рассказываете о компании, остальное беру на себя.",
     heroCta: "Написать мне",
     heroWork: "Смотреть проект",
@@ -41,7 +41,7 @@ const translations = {
     workItemSeven: "мобильная версия и базовое SEO",
     workVisit: "Открыть fitorelax.pl",
     workAria: "Fito Relax — открыть сайт fitorelax.pl",
-    logoAria: "Smerthnix — наверх страницы",
+    logoAria: "WebDevolper01 — наверх страницы",
     servicesTitle: "Что я могу сделать",
     servicesLead: "От одной страницы под рекламу до системы с аккаунтами и оплатой. Объём решаем вместе, без лишнего.",
     serviceBusinessTitle: "Сайт компании",
@@ -132,7 +132,7 @@ const translations = {
     menuOpen: "Меню",
     heroKicker: "Сайти для невеликих компаній",
     heroClock: "Польща",
-    heroH1: "Smerthnix — сайти для салонів і малого бізнесу",
+    heroH1: "WebDevolper01 — сайти для салонів і малого бізнесу",
     heroLead: "Роблю сайти для beauty-салонів, кабінетів і місцевого бізнесу. Продумую дизайн, пишу код і запускаю готовий сайт. Ви розповідаєте про компанію, решту беру на себе.",
     heroCta: "Написати мені",
     heroWork: "Дивитися проєкт",
@@ -159,7 +159,7 @@ const translations = {
     workItemSeven: "мобільна версія та базове SEO",
     workVisit: "Відкрити fitorelax.pl",
     workAria: "Fito Relax — відкрити сайт fitorelax.pl",
-    logoAria: "Smerthnix — нагору сторінки",
+    logoAria: "WebDevolper01 — нагору сторінки",
     servicesTitle: "Що я можу зробити",
     servicesLead: "Від однієї сторінки під рекламу до системи з акаунтами та оплатою. Обсяг вирішуємо разом, без зайвого.",
     serviceBusinessTitle: "Сайт компанії",
@@ -250,7 +250,7 @@ const translations = {
     menuOpen: "Menu",
     heroKicker: "Websites for small businesses",
     heroClock: "Poland",
-    heroH1: "Smerthnix — websites for salons and small businesses",
+    heroH1: "WebDevolper01 — websites for salons and small businesses",
     heroLead: "I build websites for beauty salons, studios and local businesses. I design them, write the code and put the finished site online. You tell me about the business, I handle the rest.",
     heroCta: "Get in touch",
     heroWork: "See the project",
@@ -277,7 +277,7 @@ const translations = {
     workItemSeven: "mobile version and basic SEO",
     workVisit: "Open fitorelax.pl",
     workAria: "Fito Relax — open fitorelax.pl",
-    logoAria: "Smerthnix — back to top",
+    logoAria: "WebDevolper01 — back to top",
     servicesTitle: "What I can build",
     servicesLead: "From a single page for an ad campaign to a system with accounts and payments. We agree on the scope together and skip what you don't need.",
     serviceBusinessTitle: "Business website",
@@ -370,19 +370,19 @@ const uiText = {
 
 const pageMeta = {
   pl: {
-    title: "Smerthnix — strony internetowe dla małych firm",
+    title: "WebDevolper01 — strony internetowe dla małych firm",
     description: "Robię strony dla salonów beauty, gabinetów i lokalnych firm: projekt, kod, publikacja i 30 dni wsparcia. Wycena po rozmowie."
   },
   ru: {
-    title: "Smerthnix — сайты для малого бизнеса",
+    title: "WebDevolper01 — сайты для малого бизнеса",
     description: "Делаю сайты для beauty-салонов, кабинетов и местного бизнеса: дизайн, код, запуск и 30 дней поддержки. Цена после разговора."
   },
   uk: {
-    title: "Smerthnix — сайти для малого бізнесу",
+    title: "WebDevolper01 — сайти для малого бізнесу",
     description: "Роблю сайти для beauty-салонів, кабінетів і місцевого бізнесу: дизайн, код, запуск і 30 днів підтримки. Ціна після розмови."
   },
   en: {
-    title: "Smerthnix — websites for small businesses",
+    title: "WebDevolper01 — websites for small businesses",
     description: "I build websites for beauty salons, studios and local businesses: design, code, launch and 30 days of support. Quote after a chat."
   }
 };
