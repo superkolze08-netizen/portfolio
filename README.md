@@ -44,6 +44,5 @@ HTML, CSS, JavaScript, GitHub Pages i integracje dopasowane do projektu.
 
 ## Kontakt
 
-- Telegram: [@webdelovper](https://t.me/webdelovper)
 - E-mail: [webdevolper01@gmail.com](mailto:webdevolper01@gmail.com)
 - Instagram: [@webdevolper01](https://www.instagram.com/webdevolper01/)
