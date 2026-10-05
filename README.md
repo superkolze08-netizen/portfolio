@@ -1,48 +1,44 @@
-# Smerthnix - strony internetowe dla firm
+# Smerthnix
 
-Portfolio web developera tworzącego strony dla salonów beauty, lokalnych usług i małych firm.
+Robię strony dla salonów beauty, gabinetów i lokalnych firm. Projektuję, piszę kod i publikuję gotową stronę.
 
-## Strona online
+**→ [Portfolio](https://superkolze08-netizen.github.io/portfolio/)**
 
-[Otwórz portfolio](https://superkolze08-netizen.github.io/portfolio/)
+## Projekt: Fito Relax
 
-## Prawdziwa realizacja
+Studio masażu i SPA w Szczecinie — [fitorelax.pl](https://fitorelax.pl/)
 
-### Fito Relax - Studio Masażu & SPA w Szczecinie
+Salon ma dużo usług, więc strona musiała pokazać je tak, żeby klient się nie pogubił i szybko trafił do rezerwacji. Na stronie są:
 
-[Zobacz fitorelax.pl](https://fitorelax.pl/)
+- oferta masaży, SPA, fitosauny i jacuzzi
+- pakiety dla dwojga i vouchery prezentowe
+- opinie i FAQ
+- rezerwacja przez Booksy
+- Google Maps, Instagram i YouTube
+- wersja mobilna i podstawowe SEO
 
-Strona zawiera między innymi:
+## Co mogę zrobić
 
-- ofertę masaży, SPA, fitosauny i jacuzzi;
-- pakiety dla dwojga;
-- vouchery prezentowe;
-- opinie i FAQ;
-- przejście do rezerwacji w Booksy;
-- Google Maps, Instagram i YouTube;
-- wersję mobilną i podstawową strukturę SEO.
+| | |
+| --- | --- |
+| **Strona firmowa** | oferta, cennik, galeria, opinie, mapa, kontakt |
+| **Landing page** | jedna strona pod reklamę, usługę albo wydarzenie |
+| **Nowa wersja starej strony** | nowy wygląd, szybkość, wersja na telefon |
+| **Sklep i płatności** | koszyk, zamówienia, abonamenty, płatności online |
+| **System z bazą danych** | konta użytkowników, panel administratora, CRM |
+| **Rezerwacje i automatyzacje** | Booksy, kalendarz, e-mail i SMS, API, boty |
 
-## Co oferuję
+Mogę też dodać blog, vouchery albo kilka wersji językowych. Po publikacji daję 30 dni wsparcia.
 
-- strony firmowe i strony usług;
-- landing pages pod reklamę i sprzedaż;
-- poprawę istniejących stron;
-- integracje z Booksy, formularzami i płatnościami online;
-- sklepy, koszyki, zamówienia i abonamenty;
-- bazy danych, konta użytkowników i panele administratora;
-- API, powiadomienia e-mail/SMS i systemy rezerwacji;
-- galerie, opinie, cenniki, vouchery, blog i FAQ;
-- kilka wersji językowych;
-- systemy CRM, boty i proste automatyzacje.
-- 30 dni wsparcia po publikacji strony.
+## Cena
 
-Cena jest ustalana indywidualnie po krótkiej rozmowie i zależy od zakresu projektu.
-
-## Technologie
-
-HTML, CSS, JavaScript, GitHub Pages i integracje dopasowane do projektu.
+Nie mam gotowych pakietów. Najpierw krótka rozmowa o firmie i potrzebach, potem konkretna cena i termin.
 
 ## Kontakt
 
 - E-mail: [webdevolper01@gmail.com](mailto:webdevolper01@gmail.com)
 - Instagram: [@webdevolper01](https://www.instagram.com/webdevolper01/)
+
+---
+
+HTML, CSS i JavaScript, bez frameworków. Strona działa na GitHub Pages w czterech językach: PL / RU / UA / EN.
