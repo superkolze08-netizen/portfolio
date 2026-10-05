@@ -641,6 +641,7 @@ main {
 
 .name .ch {
   display: block;
+  flex-shrink: 0;
   overflow: hidden;
   padding-top: 0.05em;
   font-variation-settings: "wdth" var(--w, 100), "wght" var(--g, 800);
