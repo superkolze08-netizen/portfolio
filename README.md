@@ -38,7 +38,3 @@ Nie mam gotowych pakietów. Najpierw krótka rozmowa o firmie i potrzebach, pote
 
 - E-mail: [webdevolper01@gmail.com](mailto:webdevolper01@gmail.com)
 - Instagram: [@webdevolper01](https://www.instagram.com/webdevolper01/)
-
----
-
-HTML, CSS i JavaScript, bez frameworków. Strona działa na GitHub Pages w czterech językach: PL / RU / UA / EN.
